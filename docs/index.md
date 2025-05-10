@@ -2,20 +2,20 @@
 title: Healthcare Database Analytics
 ---
 
-# Healthcare Database Analytics
+# Healthcare Database Analytics Project with SQL and Python
 
 Welcome! This project explores a simulated healthcare system's database using Python, SQL, and Oracle Autonomous Data Warehouse. The goal is to demonstrate data integration, relational schema modeling, and meaningful analytics using real-world healthcare concepts.
 
 ## 🔍 Project Highlights
 
 - Relational schema design using `PATIENT`, `DOCTOR`, `APPOINTMENT`, `BILLING`, and `PROCEDURE` tables
-- SQL queries for insights like appointment frequency, doctor workload, and patient billing summaries
-- Data visualization and transformation with pandas
+- SQL queries and views for insights like appointment frequency, doctor workload, and patient billing summaries
+- Data transformation and visualization with pandas, numpy, and matplotlib
 - End-to-end pipeline from raw `.csv` to live Oracle DB
 
 ## 📊 Technologies Used
 
-- Python (pandas, oracledb)
+- Python (pandas, numpy, oracledb, matplotlib)
 - Oracle Autonomous Database (Free Tier)
 - GitHub Pages
 - Jupyter Notebooks
