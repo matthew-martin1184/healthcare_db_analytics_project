@@ -2,7 +2,7 @@
 title: Healthcare Database Analytics
 ---
 
-# Healthcare Database Analytics with SQL and Python
+# Healthcare DB Analytics with SQL and Python
 
 Welcome! This project explores a simulated healthcare system's database using Python, SQL, and Oracle Autonomous Data Warehouse. The goal is to demonstrate data integration, relational schema modeling, and meaningful analytics using real-world healthcare concepts.
 
