@@ -1,5 +1,5 @@
 ---
-title: Healthcare DB Analytics Project
+title: Healthcare Database Analytics
 ---
 
 # Healthcare Database Analytics
