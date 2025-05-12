@@ -12,6 +12,7 @@ Welcome! This project explores a simulated healthcare system's database using Py
 - SQL queries and views for insights like appointment frequency, doctor workload, and patient billing summaries
 - Data transformation and visualization with pandas, numpy, and matplotlib
 - End-to-end pipeline from raw `.csv` to live Oracle DB
+- Analysis Dashboard for Exploratory Analysis
 
 ## 📊 Technologies Used
 
@@ -19,11 +20,13 @@ Welcome! This project explores a simulated healthcare system's database using Py
 - Oracle Autonomous Database (Free Tier)
 - GitHub Pages
 - Jupyter Notebooks
+- Streamlit Web App
 
 ## 🔗 Links
 
 <a href="demo.html" class="button" target="_blank">🌐 View Live Demo</a>
 <a href="https://github.com/matthew-martin1184/healthcare_db_analytics_project" class="button" target="_blank">🔗 View on GitHub</a>
+<a href="https://healthcaredbanalyticsproject-kvc5vwdrheqi3jszhg55vk.streamlit.app/" class="button" target="_blank">🚀 View Dashboard</a>
 
 
 ---
