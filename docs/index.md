@@ -23,7 +23,7 @@ Welcome! This project explores a simulated healthcare system's database using Py
 ## 🔗 Links
 
 <a href="demo.html" class="button" target="_blank">🌐 View Live Demo</a>
-<a href="https://github.com/yourusername/your-repo-name" class="button" target="_blank">🔗 View on GitHub</a>
+<a href="https://github.com/matthew-martin1184/healthcare_db_analytics_project" class="button" target="_blank">🔗 View on GitHub</a>
 
 
 ---
