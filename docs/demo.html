@@ -5,27 +5,53 @@
   <title>Demo Page</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="assets/cayman-lite.css" />
+  <style>
+    .top-bar {
+      background-color: #2c3e50;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    .top-bar a.button {
+      background-color: #2ecc71;
+      color: white;
+      padding: 8px 16px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+    .top-bar a.button:hover {
+      background-color: #27ae60;
+    }
+  </style>
 </head>
 <body>
-  <h1>Healthcare Database Analytics Project Overview and Demonstration</h1>
-  <p>This project develops an interactive dashboard in Streamlit for exploratory analysis of a healthcare provider network using data from a public-domain Kaggle dataset. It implements an end-to-end ETL pipeline, built in Jupyter Notebooks using Pandas, to transform raw CSV files into a structured relational schema and load the data into an Oracle Autonomous Data Warehouse. The data is queried using SQL and visualized through the dashboard to support insights into provider activity and patient encounters.</p>
+  <div class="top-bar">
+    <a href="index.html" class="button">← Back to Home</a>
+  </div>
+  
+  <main>
+    <h1>Healthcare Database Analytics Project Overview and Demonstration</h1>
+    <p>This project develops an interactive dashboard in Streamlit for exploratory analysis of a healthcare provider network using data from a public-domain Kaggle dataset. It implements an end-to-end ETL pipeline, built in Jupyter Notebooks using Pandas, to transform raw CSV files into a structured relational schema and load the data into an Oracle Autonomous Data Warehouse. The data is queried using SQL and visualized through the dashboard to support insights into provider activity and patient encounters.</p>
 
-  <a href="index.html" class="button">← Back to Home</a>
+    <ul>
+      <li>One styled list item</li>
+      <li>Another one</li>
+    </ul>
 
-  <ul>
-    <li>One styled list item</li>
-    <li>Another one</li>
-  </ul>
+    <p><strong>This text should appear bold.</strong></p>
 
-  <p><strong>This text should appear bold.</strong></p>
-
-  <!-- ✅ Notebook Link Section -->
-  <h2>📘 Jupyter Notebook</h2>
-  <p>
-    <a href="notebooks/healthcare_db_etl.html" class="button" target="_blank">View ETL Pipeline Notebook (HTML)</a>
-  </p>
-  <p>
-    <a href="notebooks/healthcare_db_wrangling.html" class="button" target="_blank">View Data Wrangling Notebook (HTML)</a>
-  </p>
+    <!-- ✅ Notebook Link Section -->
+    <h2>📘 Jupyter Notebook</h2>
+    <p>
+      <a href="notebooks/healthcare_db_etl.html" class="button" target="_blank">View ETL Pipeline Notebook (HTML)</a>
+    </p>
+    <p>
+      <a href="notebooks/healthcare_db_wrangling.html" class="button" target="_blank">View Data Wrangling Notebook (HTML)</a>
+    </p>
+  </main>  
 </body>
 </html>
