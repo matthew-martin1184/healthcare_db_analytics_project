@@ -6,36 +6,72 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="assets/cayman-lite.css" />
   <style>
-    .top-bar {
+    header {
       background-color: #2c3e50;
       padding: 1rem 2rem;
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
     }
 
-    .top-bar a.button {
+    .nav-button {
       background-color: #2ecc71;
-      color: white;
-      padding: 8px 16px;
-      text-decoration: none;
+      color: #fff;
+      padding: 0.5rem 1rem;
       font-weight: bold;
-      border-radius: 5px;
+      text-decoration: none;
+      border-radius: 6px;
     }
 
-    .top-bar a.button:hover {
+    .nav-button:hover {
       background-color: #27ae60;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    h1, h2 {
+      color: #2c3e50;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    .button {
+      display: inline-block;
+      margin: 0.5rem 0.5rem 0.5rem 0;
+      padding: 0.5rem 1rem;
+      background-color: #0366d6;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      background-color: #024fa2;
     }
   </style>
 </head>
+
 <body>
-  <div class="top-bar">
-    <a href="index.html" class="button">← Back to Home</a>
-  </div>
-  
+
+  <!-- 🧭 Navigation Bar -->
+  <header>
+    <a href="index.html" class="nav-button">← Back to Home</a>
+  </header>
+
   <main>
     <h1>Project Overview and Demonstration</h1>
-    <p>This project develops an interactive dashboard in Streamlit for exploratory analysis of a healthcare provider network using data from a public-domain Kaggle dataset. It implements an end-to-end ETL pipeline, built in Jupyter Notebooks using Pandas, to transform raw CSV files into a structured relational schema and load the data into an Oracle Autonomous Data Warehouse. The data is queried using SQL and visualized through the dashboard to support insights into provider activity and patient encounters.</p>
+
+    <p>
+      This project develops an interactive dashboard in Streamlit for exploratory analysis of a healthcare provider network using data from a public-domain Kaggle dataset. It implements an end-to-end ETL pipeline, built in Jupyter Notebooks using Pandas, to transform raw CSV files into a structured relational schema and load the data into an Oracle Autonomous Data Warehouse. The data is queried using SQL and visualized through the dashboard to support insights into provider activity and patient encounters.
+    </p>
 
     <ul>
       <li>One styled list item</li>
@@ -44,14 +80,13 @@
 
     <p><strong>This text should appear bold.</strong></p>
 
-    <!-- ✅ Notebook Link Section -->
-    <h2>📘 Jupyter Notebook</h2>
+    <h2>📘 Jupyter Notebooks</h2>
     <p>
       <a href="notebooks/healthcare_db_etl.html" class="button" target="_blank">View ETL Pipeline Notebook (HTML)</a>
-    </p>
-    <p>
       <a href="notebooks/healthcare_db_wrangling.html" class="button" target="_blank">View Data Wrangling Notebook (HTML)</a>
     </p>
-  </main>  
+  </main>
+
 </body>
 </html>
+
