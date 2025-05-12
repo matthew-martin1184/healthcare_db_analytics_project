@@ -1,9 +1,10 @@
 import streamlit as st
 import pandas as pd
+import os
 import pickle
 import matplotlib as plt
 
-file_path = "data/dataframes.pkl"
+file_path = os.path.join(os.path.dirname(__file__), "..", "data", "dataframes.pkl")
 with open(file_path, "rb") as f:
     data = pickle.load(f)
 
