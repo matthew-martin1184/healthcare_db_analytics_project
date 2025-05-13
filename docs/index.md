@@ -8,7 +8,7 @@ Welcome! This project explores a simulated healthcare system's database using Py
 
 ## 🔍 Project Highlights
 
-- Relational schema design using `PATIENT`, `DOCTOR`, `APPOINTMENT`, `BILLING`, and `MEDICAL_PROCEDURE` tables
+- Relational schema design using `PATIENT`, `DOCTOR`, `BILLING`, and `MEDICAL_PROCEDURE` tables
 - SQL queries and views for insights like appointment frequency, doctor workload, and patient billing summaries
 - Data transformation and visualization with pandas, numpy, and matplotlib
 - End-to-end pipeline from raw `.csv` to live Oracle DB
