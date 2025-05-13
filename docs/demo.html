@@ -22,10 +22,20 @@
       This project develops an interactive dashboard in Streamlit for exploratory analysis of a healthcare provider network using data from a public-domain Kaggle dataset. It implements an end-to-end ETL pipeline, built in Jupyter Notebooks using Pandas, to transform raw CSV files into a structured relational schema and load the data into an Oracle Autonomous Data Warehouse. The data is queried using SQL and visualized through the dashboard to support insights into provider activity and patient encounters.
     </p>
 
+    <h2>ETL Pipeline</h2>
+
+    <p>This pipeline was developed in Jupyter Notebooks using Python, Pandas, Numpy, and Oracledb, to do the following:</p>
+
     <ul>
-      <li>One styled list item</li>
-      <li>Another one</li>
+      <li>Extract data from Kaggle API <a href="https://www.kaggle.com/datasets/anouskaabhisikta/healthcare-management-system?resource=download" class="nav-button">← Kaggle Dataset</a></li>
+      <li>Convert CSV files to Pandas DataFrames <a href="" class="nav-button">← Raw CSV Files</li>
+      <li>Clean and transform data in preparation for loading to Oracle Database <a href="" class="nav-button">← Transformed CSV Files</li>
+      <li>Insert data into live Oracle Autonomous Data Warehouse</li>
     </ul>
+
+    <p>
+      <a href="notebooks/healthcare_db_etl.html" class="button" target="_blank">View ETL Pipeline Notebook (HTML)</a>
+    </p>
 
     <p><strong>This text should appear bold.</strong></p>
 
@@ -34,6 +44,12 @@
       <a href="notebooks/healthcare_db_etl.html" class="button" target="_blank">View ETL Pipeline Notebook (HTML)</a>
       <a href="notebooks/healthcare_db_wrangling.html" class="button" target="_blank">View Data Wrangling Notebook (HTML)</a>
     </p>
+
+    <ul>
+      <li>One styled list item</li>
+      <li>Another one</li>
+    </ul>
+    
   </main>
 
 </body>
