@@ -38,3 +38,19 @@ a.nav-button {
 a.nav-button:hover {
   background-color: #27ae60;
 }
+.etl-list {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.etl-step {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.etl-step .nav-button {
+  white-space: nowrap;
+}
