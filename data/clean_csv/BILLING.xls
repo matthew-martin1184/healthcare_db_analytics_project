@@ -1,0 +1,665 @@
+INVOICE_ID,PATIENT_ID,ITEMS,AMOUNT
+e9609dce-f125-4f65-a067-4760a06e60b6,894,Immunizations,9560.65
+fb593fb6-466a-4dc8-9a61-afbd9d4b5031,448,Cataract surgery,1889.97
+6fecc813-a9aa-4a89-97b5-079f3842eeeb,618,Pediatric surgery,5240.91
+09bb8e2f-4fe0-45c4-8963-d3ccc4c96e5c,117,Rhinoplasty,9013.93
+5fba7427-10ac-423f-a6d1-d815710e17c4,374,Antibiotic therapy,4489.57
+921c7c7d-c2c7-44b9-b9c6-6a325f1596fd,140,Hemodynamic monitoring,6444.1
+b134ec92-b0ce-451a-9f5f-8bfbf96cc02f,734,Immunotherapy (allergy shots),7669.08
+391ad999-bd07-4b41-9d4d-e0973830c66c,261,Cochlear implant surgery,1089.49
+3c3948e2-c8c6-4afa-a1dd-2829c5b50998,166,Chemotherapy,7503.8
+d4cfbe6e-9f1e-4cef-bc17-0661733236c5,545,Nephrectomy,6656.29
+412d804c-8768-4537-9893-4b983754f5eb,448,Chronic disease management,1903.97
+5172bdfc-2366-44de-b1d6-1c6f22201f86,582,Lumbar puncture,1796.36
+e0bd1dd6-2f27-4fcf-8632-4e0961bc1f24,136,Trauma resuscitation,358.45
+45929608-45d6-4427-937a-8c9a58797e73,384,Well-child check-ups,5679.42
+66a4418f-9d3f-4e11-a252-c47c2bca3dd0,619,Retinal surgery,8832.38
+e93e2743-dcb1-42b6-94e5-8a2ef210ae69,141,Angioplasty and stent placement,6665.08
+8eaf98b8-274e-46e0-b87e-a2964e488875,744,Orthopedic surgery,7495.48
+6ab62e5c-57dc-424f-8fd1-c228c20c45ca,526,Pulmonary function tests,5529.89
+307855fb-ea2c-4f3f-9940-fe3b594cc02d,570,Tonsillectomy and adenoidectomy,8842.77
+7b989c6b-7b9d-4c47-bee5-da612edd259e,261,Endoscopy,9057.28
+5be2a593-8989-4fcd-98fc-f9964399159a,730,Anesthetic care during childbirth,3880.02
+686a1864-165e-4ce1-b879-10fe8c01cb63,379,Hormone replacement therapy,3562.12
+637db190-7624-4f8f-96c3-2f9b2191f072,609,Bronchoscopy,6073.58
+999b38ba-e37d-4fa8-804a-c9736df75896,791,Coronary artery bypass surgery,3216.28
+7590f1ae-d76e-4196-b204-4657adf6cd7a,562,General anesthesia for surgeries,6075.07
+c0bbde22-3273-407d-a95d-add7fd83df0d,421,Surgical oncology,9628.69
+5296d704-915b-4ed7-b7cd-b29e4db5e19c,389,Surgical oncology,4504.73
+271c84d7-aae9-4277-b323-f0b5ed264d97,681,Liver biopsy,6935.42
+88ea9f5a-f12f-42ed-819b-85d81699d637,880,Plastic surgery,758.44
+05439441-06a0-4823-a69d-b407b7bf36de,352,Cochlear implant surgery,4768.0
+970f3db6-6502-4a98-a455-2ab071c24673,227,Coronary artery bypass surgery,2629.75
+5a549378-87f4-483c-b581-689779e05818,990,Thyroid biopsy,4245.4
+c92a0d83-fcf7-4b85-a575-ea3e2e23e8d3,660,Lumbar puncture,4161.8
+cc296464-6585-4219-9f69-f5222536cd28,242,Insulin pump management for diabetes,7206.23
+6a4c512c-26c9-4713-8148-23be81d3da53,906,MRI for brain imaging,9854.03
+4c8950c0-108c-491d-bdf3-db61775ccc03,692,Retinal surgery,8703.14
+d495bf43-0b87-42cc-b4de-e2c9496f999a,766,Dermatologic surgery,5803.61
+2b0b6d8e-99d9-46ba-8310-45d095d228da,356,Sedation for minor procedures,9283.05
+9045f659-9a30-4ca3-8ae7-17852497a8cc,724,Dialysis,9008.44
+2ebe493c-331c-4275-8cbc-99c49d497016,238,"Cosmetic procedures (e.g., Botox, fillers)",4509.81
+dc75eedb-08fc-43b6-9410-aeccf76bd029,120,Management of complex medical conditions,8093.24
+02b40ab2-68d5-46ab-b6c0-06ffbd7c3879,733,General anesthesia for surgeries,6497.28
+86a1017d-f979-4fb4-ba91-84e7f1e609c5,940,Anesthetic care during childbirth,632.45
+7f19888b-c055-4011-88dd-7db27d9e92f0,994,EEG (Electroencephalogram),9003.65
+ac99c364-59f9-4836-8ec5-2e90fd3ab328,415,Medication management,8281.41
+20a43a92-37c9-4566-8c4b-e8969605b42a,481,Chemotherapy,8018.76
+a479402f-0e11-4047-a18b-4237aa493130,877,Insulin pump management for diabetes,6883.34
+6b3ef933-f25e-42a8-a22d-32f85aaf837d,959,Chemotherapy,1544.02
+153e5714-e6ce-4262-9987-0cf6813f8704,575,Cochlear implant surgery,6267.48
+c2be44ca-64af-4004-8df0-005aeb60246e,498,Pediatric surgery,6924.8
+0e164dc8-4974-4e85-bbea-01d42ba4ceda,725,Intensive care management,8677.65
+f25dfa48-b945-4f4b-a212-a67cef51b117,963,Minor surgical procedures,8765.78
+4acc024a-cb1e-4489-b8ac-baa46c5752e7,876,Intensive care management,3098.08
+ae4925c5-a887-4bc5-ba68-9f30593d3e7a,103,Nephrectomy,2033.01
+40e6fb54-1dc6-4683-9441-edf48477e9e2,839,Electroconvulsive therapy (ECT),1564.66
+90cf2478-df5e-4f7d-a91b-0e207e49e09f,411,EEG (Electroencephalogram),9025.29
+d87dcbfd-27c1-4897-91ee-3fc002eedc3e,469,Liver biopsy,3666.52
+e62820e7-2026-4502-a405-0d6ebf7a2353,533,,2190.05
+90fad6b9-4cce-4f53-afaa-4f85870ff0f8,940,Retinal surgery,6155.37
+af1c8d8d-0a22-44c9-aa83-b9e66cc6b92c,441,Chronic disease management,4234.63
+b1751a5e-c15e-4103-94b3-5edf906db165,368,Cardiology:,6892.03
+fdc0f564-464d-4509-bede-4da102a59c38,929,Cochlear implant surgery,2769.91
+b7b08593-89ad-4dd7-b44c-02ebd4adc41d,952,Polypharmacy management,4057.44
+b876b45c-82cc-40df-b276-2b59f9e8c0e0,929,Symptom management for end-of-life care,255.37
+18255fdd-0a46-44c2-9a27-c68ab6f111cf,546,Allergy testing,2269.64
+23df246d-afc6-4984-956c-8dc719166fc5,480,Rhinoplasty,2783.89
+97ba87a7-a6c7-42f5-9269-06f6f9966960,474,General surgery,5456.38
+eaeff6d9-6a9c-4b71-b72d-a98f20f55102,685,Advanced cardiac life support,8955.31
+08a3cda2-ef34-412d-87a0-2d9266981b01,188,Insulin pump management for diabetes,6558.39
+77f99ff4-527f-4fe6-a7a9-5c45c8ea626a,620,General surgery,7935.61
+8f8d8e89-df0c-4c3b-b823-92e0677ce5cd,353,Epidural analgesia during labor,2208.15
+8eaf20ee-e769-44e0-a7a3-69bd5074b4bb,106,Electroconvulsive therapy (ECT),3195.41
+763ca90a-bb56-40a0-b420-fa110d1cf2c1,674,Chemotherapy,8211.03
+3a354035-5ed7-44f7-83ab-ab5ff56cb5bf,368,Chronic disease management,8876.04
+dd9639eb-9bd7-47e0-a22c-e52e2a5b47b4,787,Bronchoscopy,8887.3
+5c12f464-1299-418c-b6cd-ddd9b0f71ac5,730,Epidural analgesia during labor,3052.93
+f45b51f2-e229-41e9-8930-77623b3d3f34,978,Symptom management for end-of-life care,4709.05
+c17d35a0-bd3d-41f8-9403-de9487967c0f,888,Pediatric surgery,9968.43
+51f3bbe7-7083-40c3-9d5b-eba2b1e3fbf2,131,Internal medicine consultations,973.04
+04ce4206-0281-400c-982c-f28fee2bc8c8,604,General health check-ups,421.69
+6321c1d8-6188-4a47-a135-13985eb79bb0,435,Allergy testing,5404.35
+55319bb4-b2d1-4c0e-961e-327169fa8043,122,Pediatric surgery,4682.51
+fb58cc56-16ab-45c4-89b2-ad461ff38bd7,730,Internal medicine consultations,468.47
+5b2b9a9b-d160-4d5b-a38c-a860dc25a8d7,376,Internal medicine consultations,1483.26
+6bf52c6c-749f-4617-88df-34588ff8d39f,712,General surgery,3663.47
+be8231d5-0e26-4960-b2ee-513ea4904b1e,570,Pediatric surgery,6152.84
+22b7ff04-3c35-4d2a-87ec-86abdd178126,848,Antibiotic therapy,5082.08
+7bd3b914-1345-431e-9e41-468fbe8b4186,490,Electroconvulsive therapy (ECT),8734.61
+3dbc85c3-a04e-44ca-ab04-ab60624def32,535,Pediatric surgery,1561.61
+3fa50713-ae5f-4b80-ad39-8072e0dd8cd7,198,Colonoscopy,4165.38
+193da6d1-1d22-45cf-8730-8bf7aa6937d1,470,Advanced cardiac life support,4240.8
+76060a48-db3a-46ff-890d-741c7aa2a6fc,779,Well-child check-ups,5698.88
+df380891-803b-4e9f-bf86-34c858e6bf50,967,Rhinoplasty,3842.54
+0ee13477-0332-426c-8fde-40d9199d3e33,526,Rhinoplasty,1335.62
+1049e07d-b5b7-48ae-ba01-9a5076f71042,103,General anesthesia for surgeries,9416.57
+59737454-9649-4d28-bc19-f996508362f1,733,Medication management,1660.12
+2c6089dd-9cb0-452e-9e99-446da7dd8c69,926,Laser therapy for skin conditions,9537.83
+7c622bea-5714-46e6-abf8-ad72bd39094c,437,Polypharmacy management,4093.94
+a3d9a7df-a5b9-4ff4-a5a6-486fe85aaa8e,482,Antibiotic therapy,4775.78
+86157d5f-911b-4f85-9e0b-9a2ff390d6c2,866,Dialysis,8937.1
+f24edfb1-11aa-4a3f-8a99-7119109b69a4,371,Management of complex medical conditions,161.14
+74284673-6ea4-4b8a-af92-613cb8a57d71,379,Hemodynamic monitoring,5925.11
+9b8e7e2a-f363-40d4-b3b0-ac147972533a,880,Tonsillectomy and adenoidectomy,2473.08
+488fd806-d563-4d14-b976-0ec4fb69ef63,574,,3318.2
+74b90dab-8751-4d4d-8511-b6cf2a825ff5,422,Interventional radiology procedures,8155.57
+e525884f-9f3c-43f9-a45d-6d1912699355,817,Insulin pump management for diabetes,4604.64
+985ef58f-b455-4d05-bae2-057c4fc6cdbb,248,Mechanical ventilation,7236.91
+a9953fa2-7e2d-44b7-abf9-016e0a3dee32,977,Lumbar puncture,3466.9
+ac6048c5-c86f-4d13-bede-9b42d375b572,605,Insulin pump management for diabetes,494.14
+84f08fcd-8b0c-4fd4-a0d5-c12426bea193,375,Tonsillectomy and adenoidectomy,1532.83
+646112f0-af9c-480f-80d6-bdb6f0f596b7,260,Epidural analgesia during labor,9032.56
+20900994-e5af-44d0-b3c4-a510fac394f7,225,Advanced cardiac life support,3956.03
+c419c0f6-0087-4bcf-8b88-414dcf988e20,116,Angioplasty and stent placement,7860.64
+231c7faf-315f-4b4b-92c6-cc482f99a7ad,463,Tonsillectomy and adenoidectomy,4320.09
+2d047c0c-6402-4092-9906-bde1b53eb0c2,882,Radiation therapy,6540.32
+afc3e521-36f9-43d9-b78a-17c8354b45d6,438,Insulin pump management for diabetes,8352.61
+06b19bfc-012c-418f-954d-7e83d5e8313f,438,,4997.16
+9fa56d24-5b41-4492-9608-794d35c4373e,211,Radiation therapy,7712.76
+6b5d7f41-1e6f-48f1-9abb-4ee3a905961e,347,Trauma resuscitation,4139.52
+b9cf21dc-b71d-4e92-9ee5-9ce5e9ecb410,416,Angioplasty and stent placement,9844.98
+0f8c35c2-91b5-4f34-baf6-651eb9364b1e,674,Chemotherapy,7111.79
+a2c4f80f-cd6d-4aef-bb55-def98089ed8b,896,"Cosmetic procedures (e.g., Botox, fillers)",3824.92
+238fc412-6e7c-4f68-8bf1-035d7d4de814,784,Immunotherapy (allergy shots),3401.27
+7a0880e8-ed43-43b0-ac60-50c040219fe8,111,Emergency surgical procedures,4316.18
+99af73f2-c86b-435e-9b49-6179fdae22f0,387,Interventional radiology procedures,457.92
+d480e1dc-c0a8-456f-8995-4be15ab3ff93,300,Immunizations,4170.44
+f08d0548-a882-4765-b0b5-31cb13eb2254,221,Pulmonary function tests,3279.02
+8bedfa39-e73a-4d21-89c6-8bbcad1bd007,625,Rhinoplasty,2479.36
+fd038240-1f3a-4ad2-9113-8685e5d35ade,730,Polypharmacy management,8245.55
+033fe792-06a5-4625-8f28-383b0dc264ff,553,Antibiotic therapy,1447.46
+81f04745-fea8-4b10-99b3-312329d20751,285,Coronary artery bypass surgery,5991.62
+fac15df5-af26-4c23-8dca-4a219b47685b,693,General anesthesia for surgeries,1554.19
+98f1dcd8-1b5c-4524-b930-8db977f5d4e1,668,Sedation for minor procedures,5378.31
+c1443256-a011-4821-8be8-739e93773235,441,Symptom management for end-of-life care,3026.4
+7d933f0c-f1a8-4115-ac6c-163e524f14e2,353,Intensive care management,6545.48
+f0d0f959-93c1-46b4-b4ce-f96ac9706eeb,595,Immunizations,4701.94
+6eaf7c9e-ad49-4ecd-99c3-d181f9596925,514,Comprehensive geriatric assessment,8447.91
+87ed2bb1-d792-4a51-92ee-6e9acadc496d,766,Liver biopsy,1526.09
+355bad72-5226-460e-97cb-0050738bd3dd,985,Kidney transplant,6219.78
+3eabc02f-e021-47d3-8ebc-6b21919547be,854,Pacemaker implantation,4653.36
+55dfc913-49f6-4625-be1f-486b9bd8c8ae,712,Sedation for minor procedures,5389.56
+59b399d6-8d8b-437b-9e54-d6573706d965,174,Colonoscopy,3148.54
+eb5fc06b-5059-424d-9e66-e22d8a8fc79d,802,Interventional radiology procedures,6766.14
+b1ee38ca-a05d-4e9d-9d20-3c91264555fd,160,Epidural anesthesia for pain management,1298.39
+10b4c0b8-0af3-4871-adb2-d0e201ec8db2,964,Dermatologic surgery,3796.06
+dbd37ffc-3f12-494d-a236-a779c578b3dc,876,Orthopedic surgery,3000.87
+178925d5-069e-4664-bc20-5cce302edcbe,890,Medication management,1218.94
+bded4392-0b45-40f9-b475-899615a64314,498,General surgery,8038.15
+413e10a2-cb15-4403-ba9e-753b3b4588b8,603,Chemotherapy,4394.72
+41f9f494-2488-43f3-9c9f-5591603fd184,409,Coronary artery bypass surgery,5279.22
+30e1fd9a-0463-4d0c-974a-13925eed888d,940,Endoscopy,9077.01
+4abfca17-5674-4f23-8ebe-0b6ab0cc074e,993,Immunotherapy (allergy shots),948.09
+9301dd13-7e2f-4ef6-b676-4e9243306bd2,241,Hormone replacement therapy,9962.07
+768a02ed-990c-471c-84a1-6c057f2e9ec9,144,"Cosmetic procedures (e.g., Botox, fillers)",2422.16
+ee076ed4-416f-419b-a136-c0e2f6809640,627,Well-child check-ups,9778.58
+1176505a-b8ba-441b-bd33-06d0240eaf5b,605,Polypharmacy management,6573.58
+e2403ff4-1805-469d-bad5-eb1d3d3c6487,319,Radiation therapy,6334.27
+a4e66722-1884-4672-a70c-e1d5cd2a0210,909,Well-child check-ups,2440.88
+7a6df5f2-de1d-416a-990d-b4ef2df94c73,566,Retinal surgery,8364.83
+4f0bded4-a130-45a6-a54a-1ee48b8da630,930,Immunizations,5062.12
+8bfa030b-aa19-4b5a-a9b6-6dd4e1f15ddd,261,Well-child check-ups,8048.56
+3974b043-3eb2-4e8d-8fb5-b8338c1dbd9f,671,Lumbar puncture,6019.28
+8fa2d385-0a62-49a7-8154-d02fdfe766d1,536,Well-child check-ups,9193.01
+20b1015b-6542-4c1a-99d3-daa389d0a19f,174,Well-child check-ups,9523.06
+5b9115d8-616d-4d55-ad3d-4a74f6cdbed4,928,Psychotherapy,6355.55
+67e73320-b08e-4532-a206-2a133e1f63f8,586,Chemotherapy,3837.64
+20a57c02-99da-4301-8af6-6a95ef95f895,990,Advanced cardiac life support,769.51
+9c3b6be9-8e34-4622-8cdd-ed45c2679d1a,174,Insulin pump management for diabetes,6648.99
+fad5a8f3-5bc6-454f-bdf1-8b349dad2cbb,771,Dialysis,6428.2
+c059ee4a-c570-4c14-933c-c7a4901f8187,221,Anesthetic care during childbirth,9147.85
+4807a346-4cd3-49e2-bc02-fe6b4ab2864a,198,Interventional radiology procedures,9840.94
+2394b809-a9a9-4b1d-8a63-00392aa20656,473,Sedation for minor procedures,5387.96
+01954f47-b65e-4b1e-8c00-294c3bbaae4d,779,Dementia care,8024.19
+c679016b-d45a-4f45-b230-2828458adccc,668,Comprehensive geriatric assessment,3533.05
+9d839939-f3e9-4f0d-a28f-07c93f1fd492,994,Management of complex medical conditions,5371.4
+b9503f16-aea6-4f30-ae99-80e292d9345b,328,Immunizations,7661.85
+98e9862a-695e-4f0d-8e7f-a8ec43221b08,398,Rhinoplasty,6603.24
+07845def-b315-49b6-9a5b-25a75a349ace,507,Chronic disease management,9900.73
+b9e0ca40-fecd-4c5a-b827-7651d986ee95,489,Endoscopy,4485.94
+081fc344-dfd0-4d14-8647-96f68ab0245d,615,Electroconvulsive therapy (ECT),2851.34
+38e53fbe-819d-4d40-8102-1b158550da6c,779,Laser therapy for skin conditions,7779.74
+f8e457bc-db3d-4fab-a006-1bca312316cd,291,Plastic surgery,9910.9
+8372daa0-b206-4735-b158-fbb917276192,207,Pediatric surgery,4131.29
+32c8f6fb-d8c1-446b-8820-a420f88ff939,377,Liver biopsy,9957.78
+e379807a-77cd-41b5-a31e-c523378d9d52,962,Bronchoscopy,452.65
+15d0be2a-8578-4671-ae4a-44cbbc287fe6,291,Lumbar puncture,7574.58
+f864a606-6d97-4cc9-b57f-38f042a82a3f,291,Medication management,3097.92
+e22ba006-f3d0-4018-a0de-1d9f548a1c0d,264,Ventilation support,815.26
+ba393ffd-f452-458d-b220-e436e28dc069,240,Insulin pump management for diabetes,7188.04
+7006bdc9-6d29-4454-b892-f90dc9855f9f,460,Coronary artery bypass surgery,2676.95
+96fd2bf1-9894-40cd-9076-fcd632b00940,673,Insulin pump management for diabetes,8314.09
+426b5dcb-f1cc-47b6-825a-a228b50427c8,456,Mechanical ventilation,5266.62
+88d04b3b-3fa3-45b2-936d-9927d4aa4a09,368,Colonoscopy,9102.88
+5112abb3-ab21-44b2-b15f-76f7f4c86145,747,Medication management,8262.78
+b5520c68-01a3-43cd-99ed-ba018fe1bd13,273,Epidural anesthesia for pain management,8666.6
+722c0314-f80d-444c-b389-4340203680de,482,Endoscopy,866.19
+23eb18a8-91a4-439f-bbcf-ba48ea75e715,623,Thyroid biopsy,248.85
+e51507b4-eb28-4f47-863b-0c1fef2071b8,117,Thyroid biopsy,2234.81
+91a866f4-f2cc-4653-a7c6-e1dcf5bd1e94,240,Insulin pump management for diabetes,6967.73
+5318cac4-64e2-443b-998d-2cd0771ab1e9,394,Well-child check-ups,6180.46
+44ba139f-fd27-4386-a57e-1b49c42ebf0f,195,Rhinoplasty,5988.01
+f260acf1-d8a7-46bf-b740-08681e9ce3d3,163,Thyroid biopsy,5650.69
+892cc24c-ef35-4d6a-8652-246bbc27b868,381,Chemotherapy,9893.13
+a273eecb-45ae-4a8f-98fa-499cf77f9d27,610,Pulmonary function tests,6931.55
+ed2287c9-c738-4fda-8988-1ff93fcc1175,930,Bronchoscopy,7690.64
+43c7a48f-e6cb-40f0-85df-5c29d7ecfc98,513,Pulmonary function tests,8913.68
+398be05a-722b-418e-8980-2bc7e29aede2,749,Dialysis,2312.24
+bb443be2-5f1f-4ddc-96fc-592249077711,648,Endoscopy,6753.71
+17af6d9b-a2e8-4545-9bbf-6a34f46181c7,254,Cardiology:,5019.83
+7e06f09c-8d1f-44ca-9cab-c85926504b34,111,Interventional radiology procedures,378.37
+de9554cc-87e8-486e-93e3-484ca8d8a3f3,115,Kidney transplant,4860.03
+b056ced5-507d-4923-9276-09ead022a4ef,851,Dialysis,8351.85
+11c0bd6e-0622-42f7-af5e-adc1cda4cf07,634,General health check-ups,2604.57
+569b1be9-f82f-47c0-acd6-d0ea74dda087,265,General surgery,3551.76
+0aea09b7-fbbe-43a8-8b53-8d50c44d2531,518,"X-rays, CT scans, MRI scans",270.09
+b2f63a38-c621-4acf-978d-fd639442f17f,456,EEG (Electroencephalogram),7873.77
+c8f8e250-034d-460e-9002-a33a60861a6e,546,Thyroid biopsy,7384.06
+315fd542-d012-4468-ad08-666833f48b65,333,Laser therapy for skin conditions,676.74
+61847a39-229c-4b15-8cc7-de7e21855493,444,Dementia care,4849.79
+e1d49ea0-88a2-4aef-9f40-61c898330809,816,Chronic disease management,9512.59
+cf9439cc-3a48-422b-9cd2-2d5763ceb381,551,Radiation therapy,5068.33
+f26ecfe1-cb98-45a8-8ccf-05a11564c651,935,Interventional radiology procedures,7852.1
+259746b0-b5a3-49c7-870a-371a52da08e1,761,Angioplasty and stent placement,6098.08
+10c01476-550a-4f03-be94-a0e6c87c5c9c,959,Psychotherapy,8635.12
+2cb186e5-6459-4ec9-a860-cb85f3b28db9,373,Polypharmacy management,431.66
+e77ad6c9-b3c1-4d13-813f-7a58fb6ca1a5,931,Coronary artery bypass surgery,9134.9
+a3f2a918-c712-4e9e-be48-c378a0ac0a17,632,Orthopedic surgery,7492.61
+6014f497-f623-4ae8-9f5e-2e28f56f7334,466,Pediatric surgery,885.0
+49795d0b-935e-4d04-983c-34955d77c8b2,595,Rhinoplasty,3480.64
+a4cddc94-b5b4-414e-bac1-569a1c360c77,453,Cardiology:,3408.54
+9b3187be-0d0b-465f-8f75-89f0fb0d0466,961,Minor surgical procedures,4003.78
+186b9a90-4e5c-41c3-a4cc-4faee9f2bfbd,961,Pacemaker implantation,5151.73
+e09345ab-479d-4973-858f-a969aef6b8a5,480,General health check-ups,4629.84
+6db9ff7d-7a30-4b0b-923f-3c0afca74754,373,General surgery,8662.73
+c53b172c-4494-4a43-9332-883be6f9aee4,587,Radiation therapy,3569.56
+acd69870-94cc-4594-b079-ae4e32376d1a,143,Kidney transplant,4188.79
+da453de1-f189-4ba0-b8be-cf6ff3fe8e39,693,Immunotherapy (allergy shots),6127.86
+e888f454-0d30-4c70-8d61-af0440059101,370,"X-rays, CT scans, MRI scans",5581.38
+447c1408-52a8-438c-a650-c60441d9f8d8,526,Symptom management for end-of-life care,5056.55
+5a5353ac-864c-4da2-b008-36b910ee0ac1,240,General health check-ups,8457.06
+16021496-7c81-468c-a23f-d71fec4810f8,858,Nephrectomy,8855.52
+097dc94e-eb81-4fdb-b1da-a60d4a4c9c4c,281,Radiation therapy,1565.91
+6bd3ef5d-c701-41fe-9a75-c256c1ef47f1,641,Laser therapy for skin conditions,6085.97
+66747be9-017e-4d0f-9858-200f9b525e50,891,Psychotherapy,5136.84
+187faac4-bd62-4523-9682-2e4accb5cc58,143,Comprehensive geriatric assessment,9318.36
+cf577a82-a4f7-4133-8299-5583ecff3d21,622,Epidural anesthesia for pain management,1486.53
+0fa836b8-9dcf-46b1-88d9-4cb90170ac5f,306,Dementia care,6227.37
+97c2c7aa-31e3-4b9d-bab5-59bce879a753,308,Pacemaker implantation,6374.13
+6ffdd749-32b1-42d3-b4db-6f282fded53f,615,Insulin pump management for diabetes,1898.8
+dd68b525-4cbf-4625-adae-d24d9f731909,258,Cochlear implant surgery,5686.39
+503d0b35-b5fe-422d-8f96-c51121f048eb,178,Pediatric surgery,6042.28
+d399008b-7da1-4561-a673-bca69ae9753f,403,Plastic surgery,151.51
+7816d271-5173-49e3-a734-6af069ebd5ef,381,Comprehensive geriatric assessment,8352.76
+73e7ac3d-3b5b-4990-a190-604288216418,928,"Cosmetic procedures (e.g., Botox, fillers)",3426.77
+330221a5-6d2b-4d81-bc6a-30a93091f8c8,640,,1520.46
+e64ba511-5ec7-4b0c-8493-27318fd2492b,138,Orthopedic surgery,8019.51
+ee19a34f-f299-4f1b-b936-25e987d9e821,516,Rhinoplasty,2485.02
+12c91463-e20f-42d3-a1dd-0abf6f4ba673,397,Retinal surgery,1263.38
+2e7e34e8-81d6-4eb7-b1ab-378d1066d987,341,Medication management,1533.2
+4271aba1-4255-483e-979b-756ecc9d4dd5,901,Surgical oncology,9742.69
+54ab5d4b-753e-4e25-8b63-8316104b600a,505,Dermatologic surgery,8603.59
+7d11f5f3-faf6-428f-890c-f70d3ea7c9ca,722,Intensive care management,5546.97
+570423f3-beb9-415a-96fd-1293e4d118ae,543,Pacemaker implantation,3664.55
+f57aaa96-2189-479c-a460-fdc6b9e71aef,104,Symptom management for end-of-life care,8917.0
+bfe5eaad-9a1b-4c42-bd56-6dc663735244,448,Anesthetic care during childbirth,6867.42
+f31bbb37-c802-40c6-b87f-27461d0880b6,566,Intensive care management,7208.77
+28225bab-a65e-4f62-9735-a587da6fa796,363,,8325.06
+cf2677e5-ffb7-4b9e-89ab-5341c2b6c081,518,Endoscopy,613.38
+689e066a-8e84-4793-8140-8e3b09818340,703,Tonsillectomy and adenoidectomy,5192.05
+a923a7d7-a96c-40d7-9663-2e0e73b8ba14,694,Dialysis,7840.5
+4132e882-fe75-4afb-a81c-62256a8e2c47,935,Epidural analgesia during labor,4470.41
+5ece245f-7275-4995-af27-d04100e3b93b,254,EEG (Electroencephalogram),6436.96
+a8e8875a-d501-4a24-ab32-d47787dab56d,954,Thyroid biopsy,8431.09
+3e3fb1db-fae4-4f3e-935b-7b55b809ce20,690,Dermatologic surgery,4140.86
+e805fa6f-5f6b-4dc5-83a1-51d9155bd1d2,833,Electroconvulsive therapy (ECT),3302.15
+4cd0dff6-f1eb-435a-adf8-f8f0b3a4cff9,509,Pulmonary function tests,216.61
+39efdf02-f1a5-40c9-8cd7-e92ff3d553a8,608,Emotional and spiritual support,7894.91
+a8706a72-09b3-417b-9d8b-4932c959fcd9,355,Minor surgical procedures,6939.82
+debcde16-324e-475b-a137-51e8a1d94550,415,Chronic disease management,5106.21
+d0f523c6-f8b8-4bd9-8d05-cc628204e506,373,Dermatologic surgery,3573.23
+5ecc04e5-5497-405d-b964-2a6527f16421,409,Hormone replacement therapy,6842.79
+1503ab27-9c4a-4239-981e-67e8ca838471,214,Anesthetic care during childbirth,7071.94
+4ad2406d-88ec-497b-af75-7c026fd53110,159,Pulmonary function tests,2064.81
+359bb22d-ee52-49f8-8518-194d8c532498,930,Endoscopy,6046.02
+b92e1829-3e5f-4c42-89bf-3e6bcccc491a,229,EEG (Electroencephalogram),4833.65
+d3683617-5642-4b4a-b864-3fbf5ed91aab,739,Trauma resuscitation,4536.02
+0eb9911f-a9aa-41d2-a410-a42f9d2fee85,138,Emotional and spiritual support,5860.45
+9e295f31-a028-4e75-85b6-6bbd58f60b02,1000,Colonoscopy,8530.16
+8d601ac4-4044-4ba0-bda4-b8f20e8d4f8d,830,Insulin pump management for diabetes,6736.32
+ad399b1d-72b0-4d54-8133-869d30254be9,416,Pediatric surgery,681.35
+8b528fb4-79bf-4d4b-b841-7c75e61ff797,435,Kidney transplant,1576.6
+eea2ca70-e268-4e48-8dec-dd411a1a2796,507,"X-rays, CT scans, MRI scans",8013.57
+23bd5e84-0fd4-43f4-9a9a-eaffd727b67d,504,Dementia care,2911.78
+eff9367e-f3fe-4eb8-bfb2-f6e0109205ef,522,Psychotherapy,8915.78
+e0438e4c-ad8f-428e-90e8-350959061f60,838,,274.67
+afb6dfe2-9d47-463a-99a7-5bd757d5670b,917,Cardiology:,4807.45
+35761112-77f7-4c7e-80f8-876433687e08,352,Hormone replacement therapy,1717.97
+260ee750-4c38-40ab-af28-cf1ac1d0ce9e,383,Epidural analgesia during labor,2375.55
+1f52c38a-2f34-4827-a7ce-282ba6cdac9e,668,Pacemaker implantation,4640.06
+f41b5e06-bedc-4775-9354-93e6feb1c02f,389,Medication management,1811.71
+73b20b78-91b3-4f1b-b4a9-a53404e1dedd,972,Symptom management for end-of-life care,6584.38
+b448a515-817d-454f-8454-927a3f0cc98c,788,Dialysis,8754.15
+5b4db8ae-edc3-4cd6-9937-4314927cd40b,963,Emergency surgical procedures,6083.34
+2175f95d-9dc2-447e-8131-25e37ba21c2f,202,Rhinoplasty,2008.9
+37cba0bc-22e2-4cf1-add6-6637320db563,306,Hormone replacement therapy,6852.74
+f6aad0da-1b99-4a2b-b136-6cb7880470ce,302,EEG (Electroencephalogram),5212.69
+0f3c627d-6de5-4686-b8a7-d52e3b8f3840,401,LASIK eye surgery,5126.52
+5316649a-4595-410c-bbbb-fa59eb457c09,194,Dialysis,1250.35
+f7460a3d-fb4c-4905-8542-b01dd2548295,703,Bronchoscopy,8704.33
+462a5680-961e-4377-af19-a542c3ade3e8,404,EEG (Electroencephalogram),5909.77
+5ca6f563-6172-4f28-a35b-32552d796283,499,Liver biopsy,6992.15
+d9514688-6b99-4655-86f5-740d40fe8018,398,Liver biopsy,385.35
+3759edfd-0ae0-414f-89ba-d39efa38126d,567,Retinal surgery,8297.53
+c0aa0126-de78-467f-8db3-b05a8f9f10e0,146,Interventional radiology procedures,5820.71
+536ce37d-b92d-4483-9821-fdd5de657913,368,Thyroid biopsy,9496.08
+7cb966da-6519-4322-a7a3-18177f9431b5,562,Hormone replacement therapy,3339.73
+f6d0a06c-b66e-4d67-b6a9-8b370a87b1e2,744,LASIK eye surgery,8166.91
+4f9a40bf-c538-40df-961c-059493f8a29a,387,General health check-ups,5292.3
+e86429b5-ec8f-4b92-8613-0d0a15bcb773,804,Polypharmacy management,9296.34
+16a64fad-9b03-46d2-b981-ecb1c8604c7a,349,Pulmonary function tests,3619.47
+778785af-3d26-437d-9e0e-ccdafdc7dc5e,449,Immunizations,1149.14
+33170f0c-fce0-4bdf-85ac-2d9ea7ed9c55,157,Emotional and spiritual support,2696.09
+82c825a2-d7f7-44df-8284-9856ce60054e,702,Liver biopsy,4226.17
+d27c05bd-319b-48ad-bfa1-df5aae68d794,576,,3791.48
+708b2094-4aaf-4b4d-bf3b-fe2ff5b97c6e,182,Psychotherapy,7010.45
+679bdd5b-484c-48b8-9027-d63fd07a6565,879,Angioplasty and stent placement,7343.24
+1bb4a7d7-a425-4f8a-9507-e3d95edf50c5,626,Cochlear implant surgery,2493.65
+712bccd8-a487-4168-bc49-b9c61bf10bb6,462,Pacemaker implantation,6702.44
+fc05312e-64b4-4b4f-a3d6-8f1e124b80bc,636,Interventional radiology procedures,2679.99
+8c4c3eda-bd04-4ac7-b77d-786bd701ca64,248,Laser therapy for skin conditions,3503.43
+1a50a6ba-b612-48e7-9d18-1d6a0d6449a1,161,General health check-ups,5634.94
+774cb7bc-909e-417d-a6ac-2b99a713e014,302,Coronary artery bypass surgery,7860.33
+dc9ec2f2-451e-4bc8-8ea8-b0f5a014d240,685,Orthopedic surgery,8397.6
+75249464-0e5f-4fcd-95ba-aa65da016afc,812,Internal medicine consultations,490.86
+45a91b43-cf05-401c-a7ec-1f6c5108068c,961,Sedation for minor procedures,9738.69
+ad1d3887-8978-4961-af78-430cf74d2526,522,Psychotherapy,1504.78
+a16b50d3-97c5-4351-b26f-beab8c1c46fe,551,Cochlear implant surgery,9048.74
+82cd9679-6b5e-425a-ba6b-798f26fb4927,355,Immunotherapy (allergy shots),6709.8
+3fa77b96-8f16-45c1-b9a4-5434be0eecee,894,Immunizations,7624.85
+317265cb-020e-4f78-bc60-18cca6538959,546,Cardiology:,3413.09
+ae41e632-7be4-45c6-9841-c773a1cfd40e,494,Cardiology:,4808.72
+af49daa9-8d2f-4737-a02a-80a8b43b6c4d,452,Epidural analgesia during labor,9748.21
+3dba88e2-adc9-49d6-bae0-67dba8d0d3a0,751,Plastic surgery,1451.88
+5db80393-13e9-4ae8-9c1f-22046d71be00,130,Management of complex medical conditions,603.48
+37ecd22f-58c2-4939-9f8f-fa4cbd72aebf,828,Minor surgical procedures,3142.76
+fd077627-55cf-4913-952c-da2b19e935f1,145,Cardiology:,1656.55
+16732ac4-e0f2-4808-8ab1-08fa8165d875,546,Emotional and spiritual support,8672.6
+fd5b4d9b-13d8-4cd3-8557-349c575113f8,700,Kidney transplant,2106.04
+bab27c46-b829-4569-8a7e-412979419c94,844,,1614.08
+3fbaa786-1762-4085-b101-eef57e477bae,603,Pediatric surgery,7935.07
+28c5c504-09e9-45be-b827-588c50cdb7f6,625,Mechanical ventilation,2614.43
+65cf2e47-8798-4c86-bba8-4dbc08bb7240,380,Surgical oncology,1487.0
+51d5e976-e832-4c9c-adf5-1c415d11c4e2,449,Liver biopsy,6948.47
+79ad7a78-1189-4809-be03-03a79cbad96a,205,Anesthetic care during childbirth,4731.43
+be3ccdac-86c4-4246-bc7d-16dea05345da,456,Bronchoscopy,4061.96
+1d0f5ba3-a668-4b12-8301-6b5b5d555d72,237,Chemotherapy,7471.78
+ba5de573-d555-479b-bb63-309ff1fbbc2f,327,Kidney transplant,1331.13
+d9517d7f-0972-47a8-bd2f-fea7d0cb08f6,827,Chemotherapy,165.67
+19ed892a-4893-4df5-b3fb-293062a62d92,204,"Cosmetic procedures (e.g., Botox, fillers)",6627.32
+ec171623-d9d0-4150-8f19-d9fb8fa7fccf,934,Anesthetic care during childbirth,7324.71
+2ac81c62-9eb6-46ec-bb22-bb9cc59cb1e6,297,Endoscopy,7714.94
+7c865e23-41c1-4ec8-9aae-5048cff09a2e,250,Mechanical ventilation,7093.04
+b5009a20-e8ad-4238-8031-86db058be3b2,495,LASIK eye surgery,7112.64
+d05ec7a7-5d26-43c4-8c4c-2bd2fdfe36c8,178,Anesthetic care during childbirth,1801.75
+9962b819-536c-4183-b1d6-079b385b61f9,445,Surgical oncology,1691.97
+fd5c3516-4455-4f45-a533-907cde87c69f,547,Comprehensive geriatric assessment,8335.01
+acf62c90-73f8-4e28-9da1-a19ee5ddd516,772,MRI for brain imaging,4490.8
+92e4bb8f-525f-4d73-b49a-9daecb405a22,591,Lumbar puncture,9484.56
+1f29974c-719c-4d37-866c-0c46dde7caa6,444,Endoscopy,7766.19
+f2b090aa-a513-4922-b50c-67ab118aa287,213,Tonsillectomy and adenoidectomy,1839.12
+12429fad-1cd5-4645-8a52-a3dd32d3397b,675,Cochlear implant surgery,1115.49
+8e9ceefe-c7a1-467a-9e10-55bf21ab8b10,242,Bronchoscopy,4350.46
+82a6804e-0522-4f3c-a11c-6c6c1c9f83f6,426,,8794.05
+83085a36-a180-440e-a841-039904248d12,116,General anesthesia for surgeries,3620.72
+acd32ac8-09a7-4f08-9ce1-426ac751ea9a,733,Management of complex infections,9044.7
+6dbc09dd-54b0-4cd9-aa5d-bdcba2ec307c,870,Internal medicine consultations,2818.75
+be4c204d-a86f-43f1-9085-13d82095aa2b,452,Sedation for minor procedures,1900.37
+a4e9505f-c67c-4e3e-ac90-9c353d9f0282,919,Pediatric surgery,1850.51
+3f197bec-1f70-41b6-b676-4c01bd2a9769,979,Chronic disease management,8912.75
+b83cec51-9d11-4d38-bcbf-e0fbcad7c495,240,Anesthetic care during childbirth,5387.2
+0006e325-3bb0-4067-86d2-41ffb734f8ea,394,Liver biopsy,2999.2
+39c09a4f-a364-485a-b731-387946747e3d,431,Cardiology:,1455.02
+2cb743b3-28da-400d-863f-d5260f5d1673,315,Minor surgical procedures,4346.33
+172da43a-b3d0-4e99-b4ca-7b1b8ccb5379,772,EEG (Electroencephalogram),2854.39
+6afd0f13-ab5f-47ff-a60f-eaf5aaa2a1e7,108,General surgery,9436.04
+eed5dc91-fc5a-48ee-9f53-8eab47d80670,825,LASIK eye surgery,1142.28
+52225225-bda8-4837-b3ec-322cf2826e84,657,Hemodynamic monitoring,8664.7
+13f20df7-9808-42a7-8d05-11cbcaad7268,736,Retinal surgery,6078.29
+215ec61e-6f53-46de-ad3a-b9b4da01027e,751,Cardiology:,7937.43
+5c50ce91-0776-4dd3-b542-3558980c424f,298,Bronchoscopy,205.64
+538aaa80-ea9b-4046-92eb-0e1326f6f37b,914,Dementia care,3981.82
+1a2c1cb7-409c-4f44-98c6-d3a2cf86de3c,596,Cardiology:,5695.5
+a49edfa7-5a5f-4f70-95c9-ac77329d6e8f,516,Cochlear implant surgery,8302.42
+297f1d29-b967-4477-8b60-c9f8796c297b,857,Interventional radiology procedures,5045.17
+a3d8df6d-eed8-4ef6-baa1-244005550e58,613,Coronary artery bypass surgery,1729.02
+18a192a7-ddc7-454b-ac4c-8202c2d705ce,482,Symptom management for end-of-life care,4381.32
+89f77fc3-27ad-4b41-a378-6b290643e079,921,General health check-ups,167.67
+71c8c4b7-d838-41c6-863c-8a559dc31f2f,175,Tonsillectomy and adenoidectomy,6575.44
+0f9ece58-b150-4723-849e-50a1e3138e06,797,Pediatric surgery,4780.17
+df7696d3-993d-4e57-86e2-ba06547f4c31,924,"Cosmetic procedures (e.g., Botox, fillers)",9429.97
+b254c8e3-4568-425a-83dd-fc78022b8bb2,441,Well-child check-ups,1827.34
+ecc8047d-32d1-4ce3-b1b5-40bef750ec07,677,Antibiotic therapy,3001.34
+774686c3-62d0-44fe-86d6-38350aed5f1d,768,Electroconvulsive therapy (ECT),2651.06
+1151baa1-9124-4fcc-914c-f593dd87c4d7,257,MRI for brain imaging,7315.11
+087c6ed1-9a5c-4d22-8679-39a95ed1d426,183,Surgical oncology,4600.39
+a7f6ccba-c463-4090-82c4-a5e0ad309714,877,Minor surgical procedures,4992.12
+cf49dda1-a7cd-4755-9733-69a961577c60,289,Coronary artery bypass surgery,1200.4
+ac87945a-d349-419e-b906-28d1256f62b9,603,Trauma resuscitation,5527.66
+fbbd2c44-7724-41b6-98e2-31686e634142,142,Rhinoplasty,7007.23
+c27c4bfb-e68b-41c1-aa97-c16ca99dba21,489,Cochlear implant surgery,4306.83
+b6d4258d-a240-47af-9a1d-bc25c3422604,350,Tonsillectomy and adenoidectomy,6634.55
+e5371032-7458-4529-a2e7-5f0d156e95f7,657,"Cosmetic procedures (e.g., Botox, fillers)",2471.24
+652b4450-8a77-4c6e-9334-5f20a44e12eb,808,Pediatric surgery,5341.88
+33db6e48-9666-4659-9115-a57d50a10836,518,Bronchoscopy,7106.71
+df1719f2-ed53-40db-8a3d-82eaa2441fc9,241,Polypharmacy management,891.96
+912f1afe-0f1e-475f-a04b-a5f0ceb7e169,627,,4313.52
+b8b814ea-d7df-4a5a-b857-8c2782936418,341,Lumbar puncture,9655.85
+cba68f2f-a040-46ee-8b33-ec970cfd5a31,286,Comprehensive geriatric assessment,4173.16
+a341302e-11c6-46f6-aceb-b8db6d13e919,621,Thyroid biopsy,5459.86
+217b0aa5-f6b9-4122-8618-d2f44fbfc87a,779,EEG (Electroencephalogram),8298.56
+93f16d41-9a24-4c1b-abba-0a12df11bb09,312,Well-child check-ups,5456.13
+d94257cb-6870-4612-8be9-2e7425bcd907,147,Trauma resuscitation,6412.99
+45275a22-1e33-4500-a35e-eb2b8d06baf9,950,Thyroid biopsy,3375.17
+1ac8a194-b452-4e95-a415-a56333ddeaaa,970,Chemotherapy,8250.64
+54ad4a3c-d562-4616-aa9d-84bd9bbb26c7,989,Emergency surgical procedures,7083.83
+8f88d301-6726-4a10-8f18-ce1db362be1b,639,,930.27
+bb8d48db-c5a4-4015-8f2e-e1ac6b5efcd3,242,Cardiology:,5645.85
+1a2102bd-a82e-49c5-9bea-236c756d83aa,161,MRI for brain imaging,5551.35
+a6a109f2-22d7-4280-b9ca-15b63eb05f1e,211,Retinal surgery,9894.92
+b543623f-6a9d-46e1-a2ab-8e79982196c5,884,Sedation for minor procedures,7104.38
+416a5182-9c95-44d8-a17b-3cf30d6836ba,415,Well-child check-ups,6189.04
+605a6f7a-9607-4ddd-ba0a-a1ddc92d6566,817,Well-child check-ups,8856.6
+c3fb245c-0389-468d-bc88-c6f9a004e4e2,881,Rhinoplasty,4975.41
+f5c0b2df-e738-458d-855c-a93e72659026,618,,7069.08
+1484e0db-00b4-4522-a746-06a145d7d540,497,Dialysis,7507.99
+c7668fdf-bcbe-49d1-8fac-68fbda8648fa,395,Lumbar puncture,6266.59
+989fd13d-05be-4cbf-8c97-5e0a01ff27fc,571,Immunizations,1295.6
+ec28d333-032c-4771-af30-4d51bc8e38bf,634,Intensive care management,8315.29
+fe8ef9de-1ea1-4878-b28f-9ee68b9f0733,939,Medication management,8566.12
+0cb5d79f-9aca-4f8d-b577-e8084bf0948b,850,Symptom management for end-of-life care,3067.76
+2503a866-2083-4470-8f06-603c53218c7c,916,Insulin pump management for diabetes,8592.75
+fc6d86ae-9c34-455e-86e2-5f47ab6ebb32,317,Management of complex medical conditions,3013.11
+1f2d6c5b-d4f0-4c24-a988-2c6ff302f3f2,466,Endoscopy,6811.86
+c13108dc-17be-4f1e-850d-aac093668b5b,179,Well-child check-ups,6628.3
+b43c5d49-e5e6-47de-8524-ca56ecac547c,645,Electroconvulsive therapy (ECT),4604.49
+8c8d3048-9658-4b95-bc32-ab5640e653d1,448,LASIK eye surgery,5714.3
+4e03bf9a-35fd-4b2c-a198-21e843033192,948,Surgical oncology,4898.01
+cb34f535-6faa-4275-aabd-c1426172680c,804,Electroconvulsive therapy (ECT),5157.77
+dc60364c-8392-4072-88c3-ac614c5463fb,190,General health check-ups,8288.72
+6e260936-ec30-4bff-9485-70f712c8c3e8,160,Cataract surgery,1856.75
+1abe446b-65f1-430e-8b23-96764ba1cbe3,626,Retinal surgery,8595.56
+7de91e9e-f705-4ee5-aeed-1eaa922bc2a9,325,"X-rays, CT scans, MRI scans",4234.59
+b7742f72-3e91-43de-9473-30354e776d8d,134,Management of complex infections,7610.48
+1547d1f1-ba57-4b1f-bdb8-54b9f4fec88b,631,Allergy testing,7403.01
+029a81a9-d8e6-4734-bb4e-a593e7139035,566,Comprehensive geriatric assessment,6564.71
+4fe09704-7697-41ca-a5d4-e9fb0ffeba50,359,Dermatologic surgery,381.41
+0d62e5bf-aa71-4af8-9563-3f5b912b3b33,104,Hemodynamic monitoring,6767.8
+6eb8cf47-7baf-4d65-8ecd-568441fed2ee,908,Dementia care,6433.47
+c827d2d9-23c9-4256-8427-772c022622ce,779,Dialysis,3035.06
+452b8c1d-b1eb-424c-adf7-a498e2d51d0a,666,Plastic surgery,959.66
+25f0fb86-0559-4049-bd8a-a9f2fb62bf4a,849,General surgery,3322.09
+c1fd3dff-67e7-4985-91fe-935b0c93f901,307,Hemodynamic monitoring,2502.37
+b1496ba9-7751-4a4c-801a-739d78d3a481,249,Epidural anesthesia for pain management,8497.23
+a23835dd-b4ed-4b34-8cf5-c447bc108405,724,Pediatric surgery,8792.24
+db6c0fca-fbc0-482a-ab94-0d9d6fcc6bc9,692,General health check-ups,8607.65
+48670ce3-1e5a-4298-a2f0-b97cf8ccebb5,985,Endoscopy,4467.23
+be7dbcdb-9b6b-4ab2-8294-2ef96518eca5,533,"Cosmetic procedures (e.g., Botox, fillers)",5616.65
+3355aa3f-dc24-4ea3-b16f-f19e8c8912a5,920,Radiation therapy,9748.92
+aeb32e0a-1ecb-4f40-b490-443c9d253e89,531,LASIK eye surgery,3219.06
+a60e5133-2967-43a0-a53d-05d26a15073e,249,Interventional radiology procedures,9616.92
+9ec6f3ab-a64c-4469-ad10-6b1b2da2857c,929,Psychotherapy,7890.26
+d12cbaa7-f563-4688-9298-6f150f339268,347,Intensive care management,4793.07
+519e25c7-7ab4-4bf0-8ac2-e25263e6ad37,118,Chronic disease management,4185.97
+8c2a6a96-0152-47ee-90b2-8fc7ae120b32,397,Endoscopy,2407.71
+0bd1024c-6fb8-4bd9-ae86-df3100da5ab3,689,Pediatric surgery,7426.67
+a8d8dc92-02d1-4b9f-a921-30863689c436,565,Bronchoscopy,712.11
+26c75178-4cb7-4595-8c6c-c1102c3a4f37,152,Insulin pump management for diabetes,3179.85
+d8d8c17f-cc83-4b83-98bb-b23949eb8c12,541,Symptom management for end-of-life care,4736.33
+1cbf198a-625c-4d6e-8860-32c73a3159c0,865,Dermatologic surgery,8342.52
+124da3b3-23b7-4451-b0f0-3b06af4fd6ff,202,Trauma resuscitation,8213.02
+f45dede9-a727-4c82-a9bc-373d648559c1,863,Orthopedic surgery,1712.9
+97d36d0d-9629-42be-8575-ca8589554fdc,375,Lumbar puncture,5373.35
+6bfc1eea-d6b3-432b-ae1b-bcd4b84b1839,716,Hormone replacement therapy,248.33
+0593e1d1-0e2f-4249-ad15-7233e8559d36,804,Intensive care management,7737.59
+a65532ed-ec72-4804-88da-6fb63ff78326,969,Cardiology:,6257.13
+0e2ca298-91e0-47ef-8a23-e0cae2f9bf5b,116,Liver biopsy,5992.08
+19ccbc2b-4da8-4c5c-a165-8c678405ba10,812,Emotional and spiritual support,3467.29
+77079efb-ad81-49cb-9f98-a13caef273d7,146,Immunotherapy (allergy shots),365.32
+784c1ece-02c2-48ac-bb59-0203d8cd0862,900,Dialysis,4935.52
+e4bc4c42-ae6b-49e2-abf2-cf49bc837c3e,182,Immunizations,3066.99
+cad0bf3c-bd34-4f7a-9be5-9c79a3e94c4b,995,Insulin pump management for diabetes,3897.77
+4d7df9f2-ae4e-489e-929c-ef0a6ae7ce47,185,Emergency surgical procedures,1349.21
+0bbaf782-8ed0-4f48-b787-c8a8cfb87ddd,336,Pulmonary function tests,4942.7
+0a8f94e7-5efc-4bc7-9796-b2cf5417dd80,131,Anesthetic care during childbirth,4584.55
+59ac6a82-e434-4678-b246-b9a50f7d0760,694,Symptom management for end-of-life care,5982.06
+52e36ac9-d976-47c4-b310-d07d581278fb,593,Cataract surgery,399.71
+e321bed1-656e-4d54-814e-6bb25c09d517,950,Dermatologic surgery,8545.36
+1c37f79a-c952-4e53-8abe-b7b7ad1de9c3,958,Surgical oncology,1181.5
+09aa195c-1356-4076-b2f2-7211d8dbab2c,444,Rhinoplasty,4023.16
+2cb41f63-a4e7-4efb-95ee-eb0ecae52e9f,359,Dementia care,9777.76
+3a7300f6-8a3b-4788-a379-9c2d750c7894,134,Chronic disease management,3545.98
+7afb6524-1327-46ec-b086-bce4fc801ae4,828,Emergency surgical procedures,5628.98
+90649253-6e18-4709-a405-59c08abdae0a,650,Tonsillectomy and adenoidectomy,6918.4
+f87758bb-2058-42a6-9bd3-f07ace997c2d,393,Radiation therapy,734.77
+14c1119e-4120-4580-a9dc-ee7ef51ecd72,151,"X-rays, CT scans, MRI scans",504.42
+7bf6154f-6558-47e9-b690-86a4a6d83a87,913,Coronary artery bypass surgery,4610.34
+6aaffb7e-5094-4970-9efc-bef927f021ff,659,Immunotherapy (allergy shots),3487.12
+1042f373-21e1-47d5-88ac-87ef74eaf7bd,879,Emergency surgical procedures,9850.52
+67fc9fc0-f670-49cf-87ab-97f30d189675,880,Psychotherapy,3758.87
+4167f1d7-7419-424e-b4d7-4368c2ada31c,589,Antibiotic therapy,3941.35
+2496302f-49c3-42b4-ba79-2788520f2794,637,General health check-ups,4650.3
+335fcd7e-9337-4726-befb-f3be67edef23,448,Insulin pump management for diabetes,3830.21
+74b46000-aa0a-4b1d-9ab4-2e246ffa95a8,149,Epidural analgesia during labor,4086.76
+ab03e66f-07d5-42e4-a12e-820259b47c7a,339,Medication management,7289.99
+f9a0466a-2511-4f12-b20c-a6aa7ddef822,457,Kidney transplant,1580.3
+574f12fe-c551-4845-8ee9-8f8e6b87ef8d,514,Immunizations,4906.92
+0d74df3b-7683-4b02-acb5-b44026174932,718,Psychotherapy,1952.81
+831abfc7-e778-4e17-8cac-61589c228bad,194,Hormone replacement therapy,8717.55
+5e370019-b4f5-4758-9bb8-f086b2719566,354,Comprehensive geriatric assessment,7565.33
+2a859471-a6ae-4147-9141-41c1597e30a8,966,Angioplasty and stent placement,5034.76
+a34373d3-2f94-4177-988e-153d7df914c8,426,Interventional radiology procedures,2097.33
+801184e2-2871-494c-b872-a6d0421c4e82,700,Comprehensive geriatric assessment,1364.73
+2b01e30c-d5e6-4a26-b1a4-eba8ec3e5773,409,Intensive care management,5779.07
+b8ab3182-c285-4c33-8ef0-e6e82eb709d6,618,Pacemaker implantation,4089.65
+bb9035a9-af9f-442a-b599-8eda324a9b78,370,Dialysis,8690.51
+0f3d543b-1968-443e-aaa0-eee57a53906b,531,Surgical oncology,6074.91
+ccdc6e70-e690-4f84-9f9d-261ee0f06250,723,Emotional and spiritual support,3894.74
+cf05cd61-da08-4d1b-a1a9-847186f0626e,514,Cochlear implant surgery,6660.07
+c0edb70b-613f-4249-b693-4390e92555ea,739,LASIK eye surgery,1619.85
+3f10482c-9f2e-4260-bf37-700a68395b6e,588,,7135.14
+f1bf4b26-8791-401c-b975-6f3304c7d113,305,Polypharmacy management,870.17
+f32a5443-dc99-40b4-912b-cdda171b2c88,652,,1639.09
+842d7667-3312-4e15-8701-b4bc9aabf12f,627,Surgical oncology,2485.85
+6672a6c1-8928-4793-8860-e87c3fd5a927,608,Intensive care management,3992.27
+cdf4d11f-01c7-4fbe-8783-cd3049f58a82,453,Dialysis,742.95
+b0a54e53-a638-4c2e-8f34-a61b2ab77443,636,Pulmonary function tests,9442.93
+7a1ac4f9-3172-413a-9bbc-4800fd1451ed,622,Ventilation support,426.3
+a736ff11-ea63-4d53-a248-f6f5521d9693,257,Emotional and spiritual support,4290.14
+a9c37790-7a3c-461e-9743-af64036109c0,968,Chemotherapy,584.95
+639b2a7e-eadf-4fd3-ba61-737803c71bcb,421,Immunizations,3556.57
+af71a7ea-8bd1-4518-846e-c56268c329fb,850,Epidural anesthesia for pain management,118.36
+9a616c6a-f76d-480f-b7b3-9a3df962de1f,788,Epidural anesthesia for pain management,8529.18
+5c1b36fb-39cf-4760-87fb-c69fa6d6c228,686,Insulin pump management for diabetes,1827.26
+7cc960f0-666e-4f22-bc32-61e586c493a2,336,Emotional and spiritual support,9593.91
+25e9f3e9-1b47-4bed-b31b-9eba0f866134,619,Management of complex infections,4586.42
+358b6964-26f9-41fb-8c32-40a589f06094,920,Electroconvulsive therapy (ECT),4022.35
+9dd96bda-ba6b-42a0-afda-f8d684fa085c,582,Epidural analgesia during labor,5508.67
+5b38955c-773b-4baf-b9da-364b29449053,527,Surgical oncology,1167.25
+e8db4c58-fdc5-4a63-bbe3-b1f7d445cfa9,384,Pacemaker implantation,6906.48
+02162a59-39cc-439c-aacf-7bdb72cf2352,350,LASIK eye surgery,7769.23
+87177464-e6f3-453b-88e1-35d49c5952dc,667,Dermatologic surgery,5826.13
+f3bb0d7a-52e8-4447-abbd-2c79be0a3ef2,373,Ventilation support,3072.13
+729f4915-0442-42c7-b8e1-59e161965d68,411,Cardiology:,3639.96
+fd90a602-e4b6-4bc0-94ae-ecf49dd5bbc2,146,Allergy testing,1290.4
+8ea31656-c0ff-4583-a326-600072ac1d0f,923,Chronic disease management,3451.8
+a09f441e-06a5-449a-a4cd-9ad55a9306ab,205,Epidural analgesia during labor,1210.28
+8bdf4485-a0df-4af4-bafb-9e15a989cb8f,974,Laser therapy for skin conditions,7503.92
+a92f3db0-9995-4e15-bebd-5aa5259c6fd3,307,Thyroid biopsy,7573.91
+85b2478a-f0d1-4366-836f-1cefbf2cf2c8,790,Bronchoscopy,6542.68
+348a2ea0-e8c2-4877-a744-6659f78af2c0,992,Ventilation support,246.11
+634391a8-de5c-4501-b1a2-2503ccc41acc,405,Pacemaker implantation,7237.67
+e7bbcbcb-5ae5-4135-b261-b7098a08a624,124,Orthopedic surgery,4161.67
+fd8c8de0-2d90-4389-8bc2-07f062a1dd57,431,Bronchoscopy,392.06
+9b9e9265-f1e3-4543-98cd-727f0286b2e9,283,Interventional radiology procedures,7988.21
+4dd7a2a1-2944-4cd0-96a3-f659e0b08602,744,Emergency surgical procedures,5843.26
+bbdcdd99-e4f5-4c0e-9c24-fb280380d226,171,Bronchoscopy,418.42
+6e84c20b-b3a2-4e55-80b3-1d3682c8461d,567,Intensive care management,9320.81
+8aed0504-5cb8-4c5f-8543-a4f2b7c26374,812,Angioplasty and stent placement,917.1
+d6beab1a-1fb7-4e57-897c-5b51eb88ff66,182,Kidney transplant,8335.47
+f4ca9490-fc7c-43b9-88b3-9c68598d5292,803,Medication management,3840.96
+9f9dda25-bfac-43f7-ad28-e679b5317cee,306,Comprehensive geriatric assessment,3332.74
+105b17ba-5076-48ee-b987-2a1b6b75fd1d,900,Laser therapy for skin conditions,5851.7
+8234e9dc-7be8-40d0-97a1-592f26ef8394,929,Dermatologic surgery,5495.11
+eb7c9204-ea8e-4a1d-83b4-f5a32f0d1324,356,Immunizations,4051.1
+a9bd738c-d76e-473e-9818-55f2b36c2839,671,General health check-ups,2503.18
+2ba933e9-b1f0-4801-b192-e2b094355e8b,901,Radiation therapy,2030.1
+eff56802-2e1f-4f22-95a2-4a6e3183bd89,121,Laser therapy for skin conditions,1146.57
+18d1afc8-a768-4d63-8718-11c55320231a,471,Dermatologic surgery,3797.98
+e727a28b-8f4b-403a-b111-14982edc9e0b,854,Liver biopsy,4789.1
+6310bb38-7b49-4544-8d4e-377fc4922f3b,808,Emotional and spiritual support,7756.36
+f2840d09-0bc3-4c42-822b-507ad2dbb945,751,Hemodynamic monitoring,2595.85
+cfd12baa-d619-46d5-b294-9e72439b4e0c,733,Trauma resuscitation,9950.34
+77020597-e652-473f-9920-afbfc7c92f8f,431,Internal medicine consultations,5454.09
+9f134665-0ecc-446a-9784-0a4cc08b6979,664,Psychotherapy,441.77
+d8536b2a-9aa0-4566-b20d-d35debb94b87,353,LASIK eye surgery,9632.4
+ed27e155-959a-437f-afa5-d47a8c4356f4,808,Electroconvulsive therapy (ECT),3959.38
+7caa60fc-d947-4f59-8150-a6256aa82b72,520,Endoscopy,9236.77
+2b8951e8-0115-4a75-af4d-49c0b42c3066,778,Thyroid biopsy,3620.28
+212e5ce0-2004-4823-b85d-6ebe85416e92,662,Angioplasty and stent placement,3094.66
+b299b3b8-0329-4ef0-a79e-6c304b6c2c48,147,Cardiology:,4942.17
+79266df2-e92e-4471-ae5f-9ef6ec6678b8,410,Ventilation support,9981.06
+7b36263b-baac-4fc7-a965-983f67289c23,488,General health check-ups,9785.9
+a8f11eec-119a-4a62-ad65-6cb6f1325f67,600,Insulin pump management for diabetes,8578.95
+d18ea235-04d9-4861-94ff-d97f0c27561f,814,Chronic disease management,1454.1
+5656ecee-7d29-46e8-aebd-f7e97a7fd83b,723,Hemodynamic monitoring,5396.46
+619baee4-d8ee-427d-8010-96fce966300c,488,Allergy testing,7281.65
+a6d07341-2bb0-4461-a103-7c92e5e0d98f,286,General anesthesia for surgeries,4382.63
+798db999-0d69-48a8-9eaa-127b3226864d,647,Dermatologic surgery,5754.31
+9a0fdc59-ee84-4fd6-9c35-e5cea3d0970d,733,Surgical oncology,7515.85
+915bb884-005e-4175-85d5-b34411d21504,462,Advanced cardiac life support,6148.06
+fbf869b5-5962-4e1c-98a7-174a19b15e13,453,Thyroid biopsy,6605.95
+9da97edd-eba6-44cd-8e4f-c1876e3766a5,797,Allergy testing,6008.77
+3d992a78-4566-451b-948a-b7a1f1d8ebe5,843,Sedation for minor procedures,482.92
+c5aa2139-01a9-4d24-87c7-0e386cd1fe1b,140,Sedation for minor procedures,1101.45
+745b778b-1320-4120-a9d5-9d098272b288,837,Rhinoplasty,5477.03
+57660a42-f20e-4e0a-a737-3d134653c2a2,888,Management of complex infections,8217.47
+601cd0f3-8a79-480c-a897-8b256a9e79cd,843,Hormone replacement therapy,958.43
+0a9195ad-9537-4d52-bbb7-c1c84faa4f9c,175,Medication management,3521.99
+82733565-b551-4288-b8f7-5413c53db2c2,212,Mechanical ventilation,5924.44
+41452412-fa15-4826-9483-2e28db938090,979,Cochlear implant surgery,3482.67
+8dd574c5-4bed-4362-ab49-399d7dded0e8,376,Trauma resuscitation,3162.0
+f93fc21a-0540-4f64-b6f5-2366531c0dbf,333,Allergy testing,4773.35
+10d868ad-b2e9-413c-b422-a28a8b1ab934,880,Mechanical ventilation,6328.88
+bcb00828-34ff-4fa6-9f13-a448e00f509d,152,Insulin pump management for diabetes,1045.94
+d303aead-1dae-4ca0-b980-878060617863,1000,Rhinoplasty,6394.61
+93dd9c3c-046a-41b9-beba-328e955f3312,960,Advanced cardiac life support,7481.04
+2f1a293b-752a-4f73-a4b1-c7f02a2a95f4,480,Coronary artery bypass surgery,7141.18
+7eec06b9-2ced-4e29-afc1-7abb65ec0073,205,Dermatologic surgery,6740.41
+e6760f4e-faf3-4642-be7a-2f1240ab276a,879,LASIK eye surgery,5665.44
+8fa0bea5-5c3b-4913-bd80-8836f1d4fddf,639,Epidural anesthesia for pain management,8127.12
+cd6fe358-7aaa-462d-a84a-55c39ba451d8,857,Chronic disease management,5626.5
+cd466272-260d-4d78-adb2-cf8f8702d9f8,657,General surgery,6197.28
+fd0fc99c-36b4-41f0-846e-c3246636c80b,181,Retinal surgery,3779.36
+2bbd9358-8089-455a-bd7d-5c828f795906,733,Epidural analgesia during labor,5683.2
+85d8ab74-4223-4fb0-a1fb-557c16617986,155,Allergy testing,5204.55
+869ce6e5-9258-465b-acf0-2bbd24483a28,312,Pulmonary function tests,9856.02
+5a40ea44-99a8-4b06-bd9d-c5962d2a63fe,664,Well-child check-ups,261.17
+3412a59a-593a-4de0-8d0a-adcbe1f7404a,849,General surgery,680.04
+5c08599d-f391-48c7-a586-ed947c8e8bda,962,Advanced cardiac life support,7545.56
+ae40133c-f3b6-48b9-9d6c-0ab1aa07f01d,972,Colonoscopy,7816.73
+b7fbacaa-29d3-4c8b-b076-2fb76dcf1cde,141,Advanced cardiac life support,6275.35
+50c5e4ed-d8ea-4f3e-a9ef-d629ad167c3d,285,Cochlear implant surgery,5892.74
+946c8130-b38e-48f6-a386-e99d2152086d,693,Comprehensive geriatric assessment,6312.7
+eea2cc5f-62be-44da-ac4b-18aa4b4ce8b8,535,Pediatric surgery,8364.7
+a68cc166-08d5-4f09-a456-05164653e90d,597,Hemodynamic monitoring,2996.71
+ec5c356e-d31a-4d0b-a04d-b2ab0c88ca0b,496,Nephrectomy,9292.42
+77956630-dfa0-4987-91f2-79f9ab3770be,334,Thyroid biopsy,3945.84
+586131bb-3a46-4ee5-bb6b-1d667f08663b,536,General anesthesia for surgeries,7670.25
+36dce652-8398-4b4f-9156-8fe13e858c58,416,Bronchoscopy,4585.14
+1ae73a18-1f49-4263-b926-cada73ebd26b,952,Trauma resuscitation,6826.13
+42e82b7d-178f-4603-a1e1-a8793c5444da,242,Laser therapy for skin conditions,5657.46
+36f63864-cb01-40d7-a20e-1b52eacc7934,600,Orthopedic surgery,4356.33
+e1ee0da3-5d6e-4d18-b92a-48d3cdfb4d28,175,Immunotherapy (allergy shots),5697.69
+9fcf32fb-6ba1-4f06-b972-fdb03e37a491,266,Sedation for minor procedures,7610.99
+37fc7f0c-1b50-4031-a984-c86fa740866f,717,Epidural analgesia during labor,3495.0
+3917a255-05a3-4369-adcd-759e1ea2a0e3,530,Medication management,8505.23
+5c02fdad-bcc7-4f10-95bc-225da5066ca8,610,Symptom management for end-of-life care,3517.23
+c5578492-6510-4cdf-802c-27bc7e8c2c91,373,Mechanical ventilation,7076.96
+020591ef-0373-4bac-a1e1-71e3107e8c9a,198,Symptom management for end-of-life care,3965.49
+9ddd7661-d4cf-4b33-be2c-264d9e6294a1,179,Advanced cardiac life support,7944.4
+46563793-f390-4b26-bf8a-2a03d8dcd288,371,Sedation for minor procedures,4722.75
+a68742b3-f728-4a99-bd62-567c437a5aca,195,Emotional and spiritual support,9504.61
+30416791-2880-4b33-b41c-3a7f58cd7c34,634,Immunizations,457.82
+7a604d6a-f0fb-4b6f-a713-97d0e55553dd,871,Pacemaker implantation,3662.93
+8d576f6c-0f48-4344-8b05-f711b1cf9e4d,696,LASIK eye surgery,4080.17
+253b0b97-88d0-40ac-a227-560255e4bd13,117,Cochlear implant surgery,6393.1
+ec00f3c3-df8f-40f7-a8de-8d53f7e857b8,698,Medication management,7851.3
+3fc95ad0-0316-40ba-a6e6-6dd08c28c603,851,Immunizations,9677.09
+af690582-687e-47f8-8a5f-add8e28e0085,562,Pulmonary function tests,8843.05
+0701598c-3b90-49bc-9337-b2e4b2dbbbca,854,Thyroid biopsy,4104.65
+51c579cf-43dc-4797-932f-da02eb288e9b,941,Chronic disease management,5051.23
+ed89afa0-01c6-4a00-ab7a-5ab5f559017d,434,Radiation therapy,9149.5
+52adc282-dae6-4099-98f4-86cd1d5702ff,883,Surgical oncology,2180.09
+a48f68fc-f2fb-490f-8327-4ba51300e674,112,Chronic disease management,9754.44
