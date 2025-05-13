@@ -25,3 +25,16 @@ a.button {
 a.button:hover {
   background-color: #024ea2;
 }
+a.nav-button {
+  padding: 4px 8px;        
+  font-size: 0.75rem;       
+  border-radius: 3px;       
+  background-color: #2ecc71;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a.nav-button:hover {
+  background-color: #27ae60;
+}
