@@ -42,13 +42,13 @@ a.nav-button:hover {
   padding-right: 1rem;
 }
 .etl-step .nav-button {
-  width: 160px; /* Fixed width for all buttons */
+  width: 160px;
   text-align: center;
   padding: 4px 12px;
   font-size: 0.75rem;
   white-space: nowrap;
   border-radius: 3px;
-  background-color: #2ecc71;
+  background-color: #3498db;
   color: white;
   text-decoration: none;
   font-weight: bold;
