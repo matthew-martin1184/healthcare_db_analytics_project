@@ -25,14 +25,19 @@ a.button {
 a.button:hover {
   background-color: #024ea2;
 }
-a.nav-button {
-  padding: 2px 4px;        
-  font-size: 0.75rem;       
-  border-radius: 3px;       
+.nav-button {
+  width: 160px;
+  text-align: center;
+  padding: 4px 8px;
+  font-size: 0.75rem;
+  line-height: 1.2;
+  white-space: nowrap;    
+  border-radius: 3px;
   background-color: #2ecc71;
   color: white;
   text-decoration: none;
   font-weight: bold;
+  display: inline-block;
 }
 
 a.nav-button:hover {
