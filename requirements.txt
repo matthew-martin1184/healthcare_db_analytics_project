@@ -1,0 +1,12 @@
+# ETL & Data Analysis
+pandas
+numpy
+
+# Oracle DB
+oracledb
+
+# Dashboard
+streamlit
+
+# Environment variable loading
+python-dotenv
