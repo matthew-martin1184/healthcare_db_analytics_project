@@ -88,4 +88,42 @@ header a:hover i {
   transform: scale(1.15);
   color: #1f2937 !important;
 }
+/* GitHub green button style */
+.github-green {
+  background-color: #2ea44f !important;
+  color: white !important;
+}
+
+.github-green:hover {
+  background-color: #22863a !important;
+  color: white !important;
+}
+
+/* Icon hover effect for social links */
+header a i {
+  transition: transform 0.2s ease, color 0.3s ease;
+}
+
+header a:hover i {
+  transform: scale(1.15);
+  color: #1f2937 !important;
+}
+
+/* Consistent button spacing */
+a.button {
+  margin-right: 0.5rem;
+}
+
+h1, h2 {
+  color: #24292e;
+  border-bottom: 2px solid #eaecef;
+  padding-bottom: 0.3rem;
+  margin-top: 2rem;
+}
+
+/* Slightly soften background if needed */
+body {
+  background-color: #f9f9f9;
+}
+
 
