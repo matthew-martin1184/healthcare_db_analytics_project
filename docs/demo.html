@@ -9,169 +9,150 @@
 </head>
 
 <body>
+  <header style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+    <div style="display: flex; align-items: center; gap: 1.25rem;">
+      <a href="https://github.com/matthew-martin1184" title="GitHub" target="_blank">
+        <i class="fab fa-github fa-xl" style="color: #4b5563;"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/matthew-martin1184/" title="LinkedIn" target="_blank">
+        <i class="fab fa-linkedin fa-xl" style="color: #0a66c2;"></i>
+      </a>
+      <a href="mailto:mattmartin1184@gmail.com" title="Email" target="_blank">
+        <i class="fas fa-envelope fa-xl" style="color: #c24030;"></i>
+      </a>
+    </div>
+    <div>
+      <a href="https://github.com/matthew-martin1184/healthcare_db_analytics_project" class="button github-green" target="_blank">
+        View on GitHub
+      </a>
+    </div>
+  </header>
 
-<header style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
-  <div style="display: flex; align-items: center; gap: 1.25rem;">
-    <a href="https://github.com/matthew-martin1184" target="_blank" title="GitHub">
-      <i class="fab fa-github fa-xl" style="color: #4b5563;"></i>
-    </a>
-    <a href="https://www.linkedin.com/in/matthew-martin1184/" target="_blank" title="LinkedIn">
-      <i class="fab fa-linkedin fa-xl" style="color: #0a66c2;"></i>
-    </a>
-    <a href="mailto:mattmartin1184@gmail.com" target="_blank" title="Email">
-      <i class="fas fa-envelope fa-xl" style="color: #c24030;"></i>
-    </a>
-  </div>
-  <div>
-    <a href="https://github.com/matthew-martin1184/healthcare_db_analytics_project"
-       class="button github-green"
-       target="_blank"
-       style="margin-left: auto;">
-      View on GitHub
-    </a>
-  </div>
-</header>
+  <main>
+    <h1>Project Overview and Demonstration</h1>
+    <p>
+      This project develops an interactive dashboard in Streamlit for exploratory analysis of a healthcare provider network using data from a public-domain Kaggle dataset. It implements an end-to-end ETL pipeline, built in Jupyter Notebooks using Pandas, to transform raw CSV files into a structured relational schema and load the data into an Oracle Autonomous Data Warehouse. The data is queried using SQL and visualized through the dashboard to support insights into provider activity and patient encounters.
+    </p>
 
-<main>
-  <h1>Project Overview and Demonstration</h1>
+    <h2>ETL Pipeline</h2>
+    <p>This pipeline was developed in Jupyter Notebooks using Python, Pandas, Numpy, and Oracledb, to do the following:</p>
 
-  <p>
-    This project develops an interactive dashboard in Streamlit for exploratory analysis of a healthcare provider network using data from a public-domain Kaggle dataset. It implements an end-to-end ETL pipeline, built in Jupyter Notebooks using Pandas, to transform raw CSV files into a structured relational schema and load the data into an Oracle Autonomous Data Warehouse. The data is queried using SQL and visualized through the dashboard to support insights into provider activity and patient encounters.
-  </p>
+    <ul class="etl-list">
+      <li class="etl-step">
+        <span>Extract data from Kaggle API</span>
+        <a href="https://www.kaggle.com/datasets/anouskaabhisikta/healthcare-management-system?resource=download" class="nav-button github-green" target="_blank">View Kaggle Dataset</a>
+      </li>
+      <li class="etl-step">
+        <span>Convert CSV files to Pandas DataFrames</span>
+        <a href="https://github.com/matthew-martin1184/healthcare_db_analytics_project/tree/main/data/raw_csv" class="nav-button github-green" target="_blank">View Raw CSV Files</a>
+      </li>
+      <li class="etl-step">
+        <span>Clean and transform data in preparation for loading to Oracle Database</span>
+        <a href="https://github.com/matthew-martin1184/healthcare_db_analytics_project/tree/main/data/clean_csv" class="nav-button github-green" target="_blank">View Cleaned CSV Files</a>
+      </li>
+      <li class="etl-step">
+        <span>Insert data into live Oracle Autonomous Data Warehouse</span>
+      </li>
+    </ul>
 
-  <h2>ETL Pipeline</h2>
+    <p>
+      <a href="notebooks/healthcare_db_etl.html" class="button" target="_blank">View ETL Pipeline Notebook (HTML)</a>
+    </p>
 
-  <p>This pipeline was developed in Jupyter Notebooks using Python, Pandas, Numpy, and Oracledb, to do the following:</p>
+    <h2>Oracle Autonomous Data Warehouse</h2>
+    <p>
+      Now that the data is loaded into the database according to a relational schema of SQL tables, queries are organized into .sql worksheets according to <code>PATIENT</code>, <code>DOCTOR</code>, <code>BILLING</code>, and <code>PROCEDURE</code> insights.
+    </p>
 
-  <ul class="etl-list">
-    <li class="etl-step">
-      <span>Extract data from Kaggle API</span>
-      <a href="https://www.kaggle.com/datasets/anouskaabhisikta/healthcare-management-system?resource=download" class="nav-button github-green" target="_blank">View Kaggle Dataset</a>
-    </li>
-    <li class="etl-step">
-      <span>Convert CSV files to Pandas DataFrames</span>
-      <a href="https://github.com/matthew-martin1184/healthcare_db_analytics_project/tree/main/data/raw_csv" class="nav-button github-green" target="_blank">View Raw CSV Files</a>
-    </li>
-    <li class="etl-step">
-      <span>Clean and transform data in preparation for loading to Oracle Database</span>
-      <a href="https://github.com/matthew-martin1184/healthcare_db_analytics_project/tree/main/data/clean_csv" class="nav-button github-green" target="_blank">View Cleaned CSV Files</a>
-    </li>
-    <li class="etl-step">
-      <span>Insert data into live Oracle Autonomous Data Warehouse</span>
-    </li>
-  </ul>
+    <ul class="etl-list">
+      <li class="etl-step">
+        <span><strong>Healthcare Database Entity Relationship Diagram</strong></span>
+        <a href="https://github.com/matthew-martin1184/healthcare_db_analytics_project/tree/main/data/sql_files" class="button github-green" target="_blank">View SQL Files</a>
+      </li>
+    </ul>
 
-  <p>
-    <a href="notebooks/healthcare_db_etl.html" class="button" target="_blank">View ETL Pipeline Notebook (HTML)</a>
-  </p>
+    <img src="assets/healthcare_analytics_erd.png" alt="Entity Relationship Diagram" style="width:100%; max-width: 800px; margin: 1rem auto; display: block;" />
 
-  <h2>Oracle Autonomous Data Warehouse</h2>
+    <div class="nav-bar">
+      <a href="sql_files/patient_queries_html.html" class="nav-button-wide" target="_blank"><code>PATIENT</code> queries (HTML)</a>
+      <a href="sql_files/doctor_queries_html.html" class="nav-button-wide" target="_blank"><code>DOCTOR</code> queries (HTML)</a>
+      <a href="sql_files/billing_queries_html.html" class="nav-button-wide" target="_blank"><code>BILLING</code> queries (HTML)</a>
+      <a href="sql_files/procedure_queries_html.html" class="nav-button-wide" target="_blank"><code>PROCEDURE</code> queries (HTML)</a>
+      <a href="sql_files/create_schema_html.html" class="nav-button-wide" target="_blank">Schema (HTML)</a>
+    </div>
 
-  <p>Now that the data is loaded into the database according to a relational schema of SQL tables, queries are organized into .sql worksheets according to <code>PATIENT</code>, <code>DOCTOR</code>, <code>BILLING</code>, and <code>PROCEDURE</code> insights.</p>
+    <h2>Data Wrangling for Dashboard</h2>
+    <p>This Notebook implements the following procedures to wrangle data for the analysis dashboard.</p>
 
-  <ul class="etl-list">
-    <li class="etl-step">
-      <span><strong>Healthcare Database Entity Relationship Diagram</strong></span>
-      <a href="https://github.com/matthew-martin1184/healthcare_db_analytics_project/tree/main/data/sql_files" class="button github-green" target="_blank">View SQL Files</a>
-    </li>
-  </ul>
+    <ul class="etl-list">
+      <li class="etl-step"><span>Load data from the Oracle database</span></li>
+      <li class="etl-step">
+        <span>Parse descriptions from a txt file using Regex</span>
+        <a href="https://github.com/matthew-martin1184/healthcare_db_analytics_project/tree/main/data/query_long_descriptions.txt" class="nav-button github-green" target="_blank">View Description File</a>
+      </li>
+      <li class="etl-step"><span>Create data objects for the dashboard</span></li>
+      <li class="etl-step">
+        <span>Serialize and dump the objects to a host environment for dashboard</span>
+        <a href="https://github.com/matthew-martin1184/healthcare_db_analytics_project/tree/main/data/dataframes.pkl" class="nav-button github-green" target="_blank">View .pkl File</a>
+      </li>
+    </ul>
 
-  <img src="assets/healthcare_analytics_erd.png" alt="Entity Relationship Diagram" style="width:100%; max-width: 800px; margin: 1rem auto; display: block;" />
+    <p>
+      <a href="notebooks/healthcare_db_wrangling.html" class="button" target="_blank">View Data Wrangling Notebook (HTML)</a>
+    </p>
 
-  <div class="nav-bar">
-    <a href="sql_files/patient_queries_html.html" class="nav-button-wide" target="_blank"><code>PATIENT</code> queries (HTML)</a>
-    <a href="sql_files/doctor_queries_html.html" class="nav-button-wide" target="_blank"><code>DOCTOR</code> queries (HTML)</a>
-    <a href="sql_files/billing_queries_html.html" class="nav-button-wide" target="_blank"><code>BILLING</code> queries (HTML)</a>
-    <a href="sql_files/procedure_queries_html.html" class="nav-button-wide" target="_blank"><code>PROCEDURE</code> queries (HTML)</a>
-    <a href="sql_files/create_schema_html.html" class="nav-button-wide" target="_blank">Schema (HTML)</a>
-  </div>
+    <h2>Streamlit Dashboard</h2>
+    <p><strong>The dashboard is currently in development.</strong></p>
+    <p>
+      This dashboard will load serialized data objects using Pickle. The data can be filtered using dropdowns to select for patient, doctor, medical procedure, or billing insights. Additional filtering can be applied to target specific relationships. These filters plot data from the objects wrangled from the result sets of the SQL queries. Visualizations will be displayed using Matplotlib.
+    </p>
 
-  <h2>Data Wrangling for Dashboard</h2>
+    <p>
+      <a href="https://healthcaredbanalyticsproject-kvc5vwdrheqi3jszhg55vk.streamlit.app/" class="button github-green" target="_blank">View Dashboard</a>
+    </p>
 
-  <p>This Notebook implements the following procedures to wrangle data for the analysis dashboard.</p>
+    <p><strong>Future goals for the Healthcare Database Analytics Project:</strong></p>
 
-  <ul class="etl-list">
-    <li class="etl-step">
-      <span>Load data from the Oracle database</span>
-    </li>
-    <li class="etl-step">
-      <span>Parse descriptions from a txt file using Regex</span>
-      <a href="https://github.com/matthew-martin1184/healthcare_db_analytics_project/tree/main/data/query_long_descriptions.txt" class="nav-button github-green" target="_blank">View Description File</a>
-    </li>
-    <li class="etl-step">
-      <span>Create data objects for the dashboard</span>
-    </li>
-    <li class="etl-step">
-      <span>Serialize and dump the objects to a host environment for dashboard</span>
-      <a href="https://github.com/matthew-martin1184/healthcare_db_analytics_project/tree/main/data/dataframes.pkl" class="nav-button github-green" target="_blank">View .pkl File</a>
-    </li>
-  </ul>
+    <p>
+      Once the dashboard is fully developed with reporting functionality for exploratory analytics, I will implement a predictive modeling pipeline that integrates both regression and classification techniques. For quantitative features with sufficient cardinality, I plan to use <strong>multiple linear regression</strong> and <strong>multi-target linear regression</strong> to model provider capabilities. For categorical and lower-cardinality features, a <strong>logistic regression</strong> model will be trained to support binary and multiclass classification tasks. The models will be designed for the following target outcomes:
+    </p>
 
-  <p>
-    <a href="notebooks/healthcare_db_wrangling.html" class="button" target="_blank">View Data Wrangling Notebook (HTML)</a>
-  </p>
+    <ul>
+      <li>Identify providers with the capacity to meet high-demand healthcare services</li>
+      <li>Classify patients based on the complexity of their medical needs</li>
+      <li>Match patients with providers who are best equipped to deliver appropriate care</li>
+    </ul>
 
-  <h2>Streamlit Dashboard</h2>
+    <p>
+      The models will draw on a range of features, including provider specialization, availability, treatment history, and capacity, as well as patient characteristics. By scoring the alignment between patient needs and provider capabilities, the system will support data-driven care coordination, targeted resource deployment, and improved efficiency in matching supply with demand across the healthcare network.
+    </p>
 
-  <p><strong>The dashboard is currently in development.</strong></p>
-  <p>This dashboard will load serialized data objects using Pickle. The data can be filtered using dropdowns to select for patient, doctor, medical procedure, or billing insights. Additional filtering can be applied to target specific relationships. These filters plot data from the objects wrangled from the result sets of the SQL queries. Visualizations will be displayed using Matplotlib.</p>
+    <hr style="margin: 3rem 0; border: none; border-top: 2px solid #eaecef;" />
 
-  <p>
-    <a href="https://healthcaredbanalyticsproject-kvc5vwdrheqi3jszhg55vk.streamlit.app/" class="button github-green" target="_blank">View Dashboard</a>
-  </p>
+    <p style="background-color: #f1f8ff; border-left: 4px solid #0366d6; padding: 1rem; font-size: 1.05rem; font-weight: 500; color: #24292e; box-shadow: 0 1px 3px rgba(0,0,0,0.05); border-radius: 6px;">
+      Thank you for taking the time to review this demonstration. I welcome the opportunity to further discuss this project with you and to share exciting future revisions.
+    </p>
 
-  <p><strong>Future goals for the Healthcare Database Analytics Project:</strong></p>
+    <div class="nav-bar">
+      <a href="index.html" class="nav-button-wide" target="_blank">Home</a>
+      <a href="https://github.com/matthew-martin1184/healthcare_db_analytics_project" class="nav-button-wide github-green" target="_blank">View GitHub Repository</a>
+    </div>
+  </main>
 
-  <p>
-Once the dashboard is fully developed with reporting functionality for exploratory analytics, I will implement a predictive modeling pipeline that integrates both regression and classification techniques. For quantitative features with sufficient cardinality, I plan to use <strong>multiple linear regression</strong> and <strong>multi-target linear regression</strong> to model provider capabilities. For categorical and lower-cardinality features, a <strong>logistic regression</strong> model will be trained to support binary and multiclass classification tasks. The models will be designed for the following target outcomes:
-</p>
-
-<ul>
-  <li>Identify providers with the capacity to meet high-demand healthcare services</li>
-  <li>Classify patients based on the complexity of their medical needs</li>
-  <li>Match patients with providers who are best equipped to deliver appropriate care</li>
-</ul>
-
-<p>
-The models will draw on a range of features, including provider specialization, availability, treatment history, and capacity, as well as patient characteristics. By scoring the alignment between patient needs and provider capabilities, the system will support data-driven care coordination, targeted resource deployment, and improved efficiency in matching supply with demand across the healthcare network.
-</p>
-
-<hr style="margin: 3rem 0; border: none; border-top: 2px solid #eaecef;" />
-
-<p style="
-  background-color: #f1f8ff;
-  border-left: 4px solid #0366d6;
-  padding: 1rem;
-  font-size: 1.05rem;
-  font-weight: 500;
-  color: #24292e;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-  border-radius: 6px;
-">
-  Thank you for taking the time to review this demonstration. I welcome the opportunity to further discuss this project with you and to share exciting future revisions.
-</p>
-  
-  <div class="nav-bar">
-    <a href="index.html" class="nav-button-wide" target="_blank">Home</a>
-    <a href="https://github.com/matthew-martin1184/healthcare_db_analytics_project" class="nav-button-wide github-green" target="_blank">View GitHub Repository</a>
-  </div>
-</main>
-
-<footer style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #eaecef; text-align: center; font-size: 0.9rem; color: #6a737d;">
-  <p>Made with ❤️ by <strong>Matthew Martin</strong></p>
-  <div style="margin: 0.5rem 0;">
-    <a href="https://github.com/matthew-martin1184" target="_blank" title="GitHub" style="margin: 0 0.5rem;">
-      <i class="fab fa-github"></i>
-    </a>
-    <a href="https://www.linkedin.com/in/matthew-martin1184/" target="_blank" title="LinkedIn" style="margin: 0 0.5rem;">
-      <i class="fab fa-linkedin"></i>
-    </a>
-    <a href="mailto:mattmartin1184@gmail.com" target="_blank" title="Email" style="margin: 0 0.5rem;">
-      <i class="fas fa-envelope"></i>
-    </a>
-  </div>
-  <p>© 2025 Matthew Martin. Last updated: May 2025.</p>
-</footer>
-  
+  <footer style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #eaecef; text-align: center; font-size: 0.9rem; color: #6a737d;">
+    <p>Made with ❤️ by <strong>Matthew Martin</strong></p>
+    <div style="margin: 0.5rem 0;">
+      <a href="https://github.com/matthew-martin1184" title="GitHub" target="_blank" style="margin: 0 0.5rem;">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/matthew-martin1184/" title="LinkedIn" target="_blank" style="margin: 0 0.5rem;">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="mailto:mattmartin1184@gmail.com" title="Email" target="_blank" style="margin: 0 0.5rem;">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
+    <p>© 2025 Matthew Martin. Last updated: May 2025.</p>
+  </footer>
 </body>
 </html>
