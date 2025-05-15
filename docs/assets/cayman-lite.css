@@ -76,4 +76,11 @@ a.nav-button:hover {
 .nav-button-wide:hover {
   background-color: #2980b9;
 }
+.github-green {
+  background-color: #2ea44f !important;
+}
+
+.github-green:hover {
+  background-color: #22863a !important;
+}
 
