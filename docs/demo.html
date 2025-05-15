@@ -2,133 +2,99 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Demo Page</title>
+  <title>Healthcare Database Demo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="assets/cayman-lite.css" />
-  <!-- <link rel="stylesheet" href="assets/custom.css" /> -->
-  <!-- Font Awesome for social icons -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 
 <body>
 
-<header style="display: flex; justify-content: space-between; align-items: center;">
-  <div style="display: flex; gap: 1rem;">
-  <a href="https://github.com/matthew-martin1184" target="_blank" title="GitHub">
-    <i class="fab fa-github fa-lg" style="color: #4b5563;"></i>
-  </a>
-  <a href="https://www.linkedin.com/in/matthew-martin1184/" target="_blank" title="LinkedIn">
-    <i class="fab fa-linkedin fa-lg" style="color: #0a66c2;"></i>
-  </a>
-  <a href="mailto:mattmartin1184@gmail.com" target="_blank" title="Email">
-    <i class="fas fa-envelope fa-lg" style="color: #c24030;"></i>
-  </a>
-</div>
-
+<!-- 🔗 Header with social icons and GitHub CTA -->
+<header style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+  <div style="display: flex; align-items: center; gap: 1.25rem;">
+    <a href="https://github.com/matthew-martin1184" target="_blank" title="GitHub">
+      <i class="fab fa-github fa-xl" style="color: #4b5563;"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/matthew-martin1184/" target="_blank" title="LinkedIn">
+      <i class="fab fa-linkedin fa-xl" style="color: #0a66c2;"></i>
+    </a>
+    <a href="mailto:mattmartin1184@gmail.com" target="_blank" title="Email">
+      <i class="fas fa-envelope fa-xl" style="color: #c24030;"></i>
+    </a>
+  </div>
+  <div>
+    <a href="https://github.com/matthew-martin1184/healthcare_db_analytics_project"
+       class="button github-green"
+       target="_blank"
+       style="margin-left: auto;">
+      View on GitHub
+    </a>
+  </div>
 </header>
-  
-  <main>
-    <h1>Project Overview and Demonstration</h1>
 
-    <p>
-      This project develops an interactive dashboard in Streamlit for exploratory analysis of a healthcare provider network using data from a public-domain Kaggle dataset. It implements an end-to-end ETL pipeline, built in Jupyter Notebooks using Pandas, to transform raw CSV files into a structured relational schema and load the data into an Oracle Autonomous Data Warehouse. The data is queried using SQL and visualized through the dashboard to support insights into provider activity and patient encounters.
-    </p>
+<main>
+  <h1>Project Overview and Demonstration</h1>
 
-    <h2>ETL Pipeline</h2>
+  <p>
+    This project develops an interactive dashboard in Streamlit for exploratory analysis of a healthcare provider network using data from a public-domain Kaggle dataset. It implements an end-to-end ETL pipeline, built in Jupyter Notebooks using Pandas, to transform raw CSV files into a structured relational schema and load the data into an Oracle Autonomous Data Warehouse. The data is queried using SQL and visualized through the dashboard to support insights into provider activity and patient encounters.
+  </p>
 
-    <p>This pipeline was developed in Jupyter Notebooks using Python, Pandas, Numpy, and Oracledb, to do the following:</p>
+  <h2>ETL Pipeline</h2>
 
-    <ul class="etl-list">
-      <li class="etl-step">
-        <span>Extract data from Kaggle API</span>
-        <a href="https://www.kaggle.com/datasets/anouskaabhisikta/healthcare-management-system?resource=download" class="nav-button" target="_blank">View Kaggle Dataset</a>
-      </li>
-      <li class="etl-step">
-        <span>Convert CSV files to Pandas DataFrames</span>
-        <a href="https://github.com/matthew-martin1184/healthcare_db_analytics_project/tree/main/data/raw_csv" class="nav-button github-green" target="_blank">View Raw CSV Files</a>
-      </li>
-      <li class="etl-step">
-        <span>Clean and transform data in preparation for loading to Oracle Database</span>
-        <a href="https://github.com/matthew-martin1184/healthcare_db_analytics_project/tree/main/data/clean_csv" class="nav-button github-green" target="_blank">View Cleaned CSV Files</a>
-      </li>
-      <li class="etl-step">
-        <span>Insert data into live Oracle Autonomous Data Warehouse</span>
-      </li>
-    </ul>
+  <p>This pipeline was developed in Jupyter Notebooks using Python, Pandas, Numpy, and Oracledb, to do the following:</p>
 
-    <p>
-      <a href="notebooks/healthcare_db_etl.html" class="button" target="_blank">View ETL Pipeline Notebook (HTML)</a>
-    </p>
+  <ul class="etl-list">
+    <li class="etl-step">
+      <span>Extract data from Kaggle API</span>
+      <a href="https://www.kaggle.com/datasets/anouskaabhisikta/healthcare-management-system?resource=download" class="nav-button github-green" target="_blank">View Kaggle Dataset</a>
+    </li>
+    <li class="etl-step">
+      <span>Convert CSV files to Pandas DataFrames</span>
+      <a href="https://github.com/matthew-martin1184/healthcare_db_analytics_project/tree/main/data/raw_csv" class="nav-button github-green" target="_blank">View Raw CSV Files</a>
+    </li>
+    <li class="etl-step">
+      <span>Clean and transform data in preparation for loading to Oracle Database</span>
+      <a href="https://github.com/matthew-martin1184/healthcare_db_analytics_project/tree/main/data/clean_csv" class="nav-button github-green" target="_blank">View Cleaned CSV Files</a>
+    </li>
+    <li class="etl-step">
+      <span>Insert data into live Oracle Autonomous Data Warehouse</span>
+    </li>
+  </ul>
 
-    <h2>Oracle Autonomous Data Warehouse</h2>
+  <p>
+    <a href="notebooks/healthcare_db_etl.html" class="button" target="_blank">View ETL Pipeline Notebook (HTML)</a>
+  </p>
 
-    <p>Now that the data is loaded into the database according to a relational schema of SQL tables, queries are organized into .sql worksheets according to <code>PATIENT</code>, <code>DOCTOR</code>, <code>BILLING</code>, and <code>PROCEDURE</code> insights.</p>
+  <h2>Oracle Autonomous Data Warehouse</h2>
 
-    <ul class="etl-list">
-      <li class="etl-step">
-        <span><strong>Healthcare Database Entity Relationship Diagram</strong></span>
-        <a href="https://github.com/matthew-martin1184/healthcare_db_analytics_project/tree/main/data/sql_files" class="button github-green" target="blank">View SQL files</a>
-      </li>
-    </ul>
-    
-    <img src="assets/healthcare_analytics_erd.png" alt="Entity Relationship Diagram" style="width:800px; vertical-align:middle;" />
-    
-    <div class="nav-bar">
-      <a href="sql_files/patient_queries_html.html" class="nav-button-wide" target="_blank"><code>PATIENT</code> queries (HTML)</a>
-      <a href="sql_files/doctor_queries_html.html" class="nav-button-wide" target="_blank"><code>DOCTOR</code> queries (HTML)</a>
-      <a href="sql_files/billing_queries_html.html" class="nav-button-wide" target="_blank"><code>BILLING</code> queries (HTML)</a>
-      <a href="sql_files/procedure_queries_html.html" class="nav-button-wide" target="_blank"><code>PROCEDURE</code> queries (HTML)</a>
-      <a href="sql_files/create_schema_html.html" class="nav-button-wide" target="_blank"> schema  (HTML)</a>
-    </div>
-    
-    <h2>Data Wrangling for Dashboard</h2>
+  <p>Now that the data is loaded into the database according to a relational schema of SQL tables, queries are organized into .sql worksheets according to <code>PATIENT</code>, <code>DOCTOR</code>, <code>BILLING</code>, and <code>PROCEDURE</code> insights.</p>
 
-    <p>This Notebook implements the following procedures to wrangle data for the analysis dashboard.</p>
+  <ul class="etl-list">
+    <li class="etl-step">
+      <span><strong>Healthcare Database Entity Relationship Diagram</strong></span>
+      <a href="https://github.com/matthew-martin1184/healthcare_db_analytics_project/tree/main/data/sql_files" class="button github-green" target="_blank">View SQL Files</a>
+    </li>
+  </ul>
 
-    <ul class="etl-list">
-      <li class="etl-step">
-        <span>Load data from the Oracle database</span>
-      </li>
-      <li class="etl-step">
+  <img src="assets/healthcare_analytics_erd.png" alt="Entity Relationship Diagram" style="width:100%; max-width: 800px; margin: 1rem auto; display: block;" />
+
+  <div class="nav-bar">
+    <a href="sql_files/patient_queries_html.html" class="nav-button-wide" target="_blank"><code>PATIENT</code> queries (HTML)</a>
+    <a href="sql_files/doctor_queries_html.html" class="nav-button-wide" target="_blank"><code>DOCTOR</code> queries (HTML)</a>
+    <a href="sql_files/billing_queries_html.html" class="nav-button-wide" target="_blank"><code>BILLING</code> queries (HTML)</a>
+    <a href="sql_files/procedure_queries_html.html" class="nav-button-wide" target="_blank"><code>PROCEDURE</code> queries (HTML)</a>
+    <a href="sql_files/create_schema_html.html" class="nav-button-wide" target="_blank">Schema (HTML)</a>
+  </div>
+
+  <h2>Data Wrangling for Dashboard</h2>
+
+  <p>This Notebook implements the following procedures to wrangle data for the analysis dashboard.</p>
+
+  <ul class="etl-list">
+    <li class="etl-step">
+      <span>Load data from the Oracle database</span>
+    </li>
+    <li class="etl-step">
       <span>Parse descriptions from a txt file using Regex</span>
-        <a href="https://github.com/matthew-martin1184/healthcare_db_analytics_project/tree/main/data/query_long_descriptions.txt" class="nav-button github-green" target="_blank">View Description File</a>
-      </li>
-      <li class="etl-step">
-        <span>Create data objects for the dashboard</span>
-      </li>
-      <li class="etl-step">
-        <span>Serialize and dump the objects to a host environment for dashboard</span>
-          <a href="https://github.com/matthew-martin1184/healthcare_db_analytics_project/tree/main/data/dataframes.pkl" class="nav-button github-green" target="_blank">View .pkl File</a>
-      </li>
-    </ul>
-    
-    <p>
-      <a href="notebooks/healthcare_db_wrangling.html" class="button" target="_blank">View Data Wrangling Notebook (HTML)</a>
-    </p>
-
-    <h2>Streamlit Dashboard</h2>
-
-    <p>
-      <strong>## The dashboard is currently in development.</strong>
-    </p> 
-    <p>This dashboard will load serialized data objects using Pickle. The data can be filtered using dropdowns to select for patient, doctor, medical procedure, or billing insights. Additional filtering can be applied to target specific relationships. These filters plot data from the objects wrangled from the result sets of the SQL queries. Visualizations will be displayed using Matplotlib.</p>
-
-    <p>
-      <a href="https://healthcaredbanalyticsproject-kvc5vwdrheqi3jszhg55vk.streamlit.app/" class="button" target="_blank">View Dashboard</a>
-    </p>
-
-    <p>Thank you for taking the time to review this demonstration. I welcome the opportunity to further discuss this project with you.</p>
-
-<div class="nav-bar">
-      <a href="index.html" class="nav-button-wide" target="_blank">Home</a>
-      <a href="https://github.com/matthew-martin1184/healthcare_db_analytics_project" class="nav-button-wide github-green" target="_blank">View GitHub Repository</a>
-      <a href="mailto:mattmartin1184@gmail.com" class="nav-button-wide" target="_blank">Email: mattmartin1184@gmail.com</a>
-      <a href="https://www.linkedin.com/in/matthew-martin1184/" class="nav-button-wide" target="_blank"><code>LinkedIn</a>
-    </div>
-    
-  </main>
-
-</body>
-</html>
-
+      <a href="https://github.com/matthew-martin1184/
