@@ -125,5 +125,14 @@ h1, h2 {
 body {
   background-color: #f9f9f9;
 }
+footer a i {
+  color: #586069;
+  transition: transform 0.2s ease, color 0.3s ease;
+}
+
+footer a:hover i {
+  color: #2ea44f;
+  transform: scale(1.15);
+}
 
 
