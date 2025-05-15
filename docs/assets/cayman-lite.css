@@ -72,15 +72,20 @@ a.nav-button:hover {
   border-radius: 6px;
   transition: background-color 0.3s;
 }
-
 .nav-button-wide:hover {
   background-color: #2980b9;
 }
 .github-green {
   background-color: #2ea44f !important;
 }
-
 .github-green:hover {
   background-color: #22863a !important;
+}
+header a i {
+  transition: transform 0.2s ease, color 0.3s ease;
+}
+header a:hover i {
+  transform: scale(1.15);
+  color: #1f2937 !important;
 }
 
