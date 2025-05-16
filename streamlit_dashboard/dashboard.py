@@ -6,7 +6,7 @@ import requests
 import io
 import matplotlib as plt
 
-#@st.cache_data
+@st.cache_data
 def load_pickle_from_github():
     url = "https://raw.githubusercontent.com/matthew-martin1184/healthcare_db_analytics_project/main/data/dataframes.pkl"
     
@@ -17,11 +17,8 @@ def load_pickle_from_github():
 
     file_like = io.BytesIO(response.content)
     data = pickle.load(file_like)
-    return data['summary_df'], data['result_set_dict'], data["cat_desc"]
-
-
-    #return data['summary_df'], data['result_set_dict'], data["cat_desc"]
-
+    
+    return data
 
 def set_category_filter(category):
     if category == "Doctor":
@@ -39,10 +36,10 @@ def set_category_filter(category):
 def set_insights(cat_df):
     name_map = dict(zip(cat_df["query_name"], cat_df["pretty_name"]))
 
-    insights = st.multiselect(label="Select insights to view", 
+    insights = st.multiselect(label="Select up to 4 insights to view", 
                               options=cat_df["query_name"].unique(),
                               default=None, format_func=lambda x: name_map.get(x, x),
-
+                              max_selections=4
                               )
     return insights
 
@@ -50,7 +47,13 @@ def main():
     st.title("Healthcare Analytics Dashboard")
 
     global summary_df, result_set_dict, cat_desc 
-    summary_df, result_set_dict, cat_desc = load_pickle_from_github()
+    data = load_pickle_from_github()
+    summary_df = data["summary_df"]
+    result_set_dict = data["result_set_dict"]
+    cat_desc = data["cat_desc"]
+
+    st.sidebar.title("Insights Options")
+    st.sidebar.write("Select options for viewing and filtering insights")
 
     category = st.selectbox(
         "View insights by category",  # Label above the dropdown
@@ -59,8 +62,10 @@ def main():
     st.write(cat_desc[category])
     cat_df = set_category_filter(category)
 
-    set_insights(cat_df)
-    
+    insights_list = set_insights(cat_df)
+
+
+
 
 if __name__ == "__main__":
     main()
