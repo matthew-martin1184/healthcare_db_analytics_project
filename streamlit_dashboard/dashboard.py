@@ -43,6 +43,20 @@ def set_insights(cat_df):
                               )
     return insights
 
+def set_tabs(insights_list):
+    tabs = set_tabs(insights_list)
+
+    if insights_list:
+        tabs = st.tabs(insights_list)
+
+        for tab, insight_name in zip(tabs, insights_list):
+            with tab:
+                st.write(f"This is the **{insight_name}** tab.")
+    else:
+        st.info("No insights available.")
+    return tabs
+
+
 def main():
     st.title("Healthcare Analytics Dashboard")
 
@@ -64,8 +78,7 @@ def main():
 
     insights_list = set_insights(cat_df)
 
-    st.tabs(insights_list)
-
+    tabs = set_tabs(insights_list)
 
 
 
