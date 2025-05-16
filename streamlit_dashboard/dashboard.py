@@ -52,7 +52,7 @@ def main():
     result_set_dict = data["result_set_dict"]
     cat_desc = data["cat_desc"]
 
-    st.sidebar.title("Insights Options")
+    st.sidebar.title("Dashboard Options")
     st.sidebar.write("Select options for viewing and filtering insights")
 
     category = st.selectbox(
@@ -63,6 +63,8 @@ def main():
     cat_df = set_category_filter(category)
 
     insights_list = set_insights(cat_df)
+
+    st.tabs(insights_list)
 
 
 
