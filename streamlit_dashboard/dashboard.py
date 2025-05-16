@@ -45,12 +45,14 @@ def set_insights(cat_df):
 
 def set_tabs(insights_list):
     pretty_tabs = dict(zip(summary_df["query_name"], summary_df["pretty_name"]))
-    if pretty_tabs:
-        tabs = st.tabs(pretty_tabs)
+    pretty_list = list(pretty_tabs.values())
 
-        for tab, insight_name in zip(tabs, pretty_tabs):
+    if insights_list:
+        tabs = st.tabs(pretty_list)
+
+        for tab, insight_name in zip(tabs, pretty_list):
             with tab:
-                st.write(f"This is the **{summary_df[summary_df['query_name'] == insight_name]['pretty_name'].values[0]}** tab.")
+                st.write(f"This is the **{insight_name}** tab.")
     else:
         st.info("No insights available.")
     return tabs
