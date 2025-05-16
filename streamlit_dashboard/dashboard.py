@@ -6,7 +6,7 @@ import requests
 import io
 import matplotlib as plt
 
-@st.cache_data
+#@st.cache_data
 def load_pickle_from_github():
     url = "https://raw.githubusercontent.com/matthew-martin1184/healthcare_db_analytics_project/main/data/dataframes.pkl"
     
