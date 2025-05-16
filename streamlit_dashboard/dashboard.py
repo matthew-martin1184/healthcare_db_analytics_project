@@ -37,9 +37,9 @@ def set_insights(cat_df):
     name_map = dict(zip(cat_df["query_name"], cat_df["pretty_name"]))
 
     insights = st.multiselect(label="Select up to 4 insights to view", 
-                              options=cat_df["query_name"].unique(),
-                              default=None, format_func=lambda x: name_map.get(x, x),
-                              max_selections=4
+                                options=cat_df["query_name"].unique(),
+                                format_func=lambda x: name_map.get(x, x),
+                                max_selections=4
                               )
     return insights
 
