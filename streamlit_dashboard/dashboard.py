@@ -80,6 +80,7 @@ def main():
     cat_df = set_category_filter(category)
 
     insights_list = set_insights(cat_df)
+    st.write("TEST#######", insights_list)
 
     tabs = set_tabs(insights_list)
 
