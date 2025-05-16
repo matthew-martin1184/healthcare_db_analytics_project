@@ -4,30 +4,59 @@ import os
 import pickle
 import matplotlib as plt
 
-file_path = os.path.join(os.path.dirname(__file__), "..", "data", "dataframes.pkl")
-with open(file_path, "rb") as f:
-    data = pickle.load(f)
+@st.cache_data
+def load_data():
+    file_path = os.path.join(os.path.dirname(__file__), "..", "data", "dataframes.pkl")
+    with open(file_path, "rb") as f:
+        data = pickle.load(f)
 
-query_df = data['query_df']
-doctor_result_dict = data['doctor_result_dict']
-patient_result_dict = data['patient_result_dict']
-procedure_result_dict = data['procedure_result_dict']
-billing_result_dict = data['billing_result_dict']
+    return data['summary_df'], data['result_set_dict'], data["cat_desc"]
 
-# Title
-st.title("Healthcare Analytics Dashboard")
 
-category = st.selectbox(
-    "View insights by category",  # Label above the dropdown
-    ["Doctor", "Patient", "Medical Procedure", "Billing"]  # Options
-)
+def set_category_filter(category):
+    if category == "Doctor":
+        df = summary_df[summary_df["source_file"] == 'doctor_queries.sql']
+    elif category == "Patient":
+        df = summary_df[summary_df["source_file"] == 'patient_queries.sql']
+    elif category == "Medical Procedure":
+        df = summary_df[summary_df["source_file"] == 'procedure_queries.sql']
+    elif category == "Billing":
+        df = summary_df[summary_df["source_file"] == 'billing_queries.sql']
+    else:
+        raise ValueError("Invalid category selected")
+    return df
 
-# Conditional content based on selection
-if category == "Doctor":
-    st.write("These insights focus on provider workload, capacity, and performance, helping identify how effectively doctor resources are being utilized and whether any are over or under-worked.")
-elif category == "Patient":
-    st.write("These insights analyze patient-centric metrics, shedding light on how patients utilize services and the nature of the patient population. They help identify high-demand patients, patient turnover, and complexity of cases, informing how patient load drives resource needs.")
-elif category == "Medical Procedure":
-    st.write("These insights focus on medical procedures - how often they are performed, who performs them, and how they contribute to workload and revenue. Understanding procedure frequency and distribution helps in assessing whether the hospital is equipped to meet procedural demand and if certain procedures strain resources or generate significant income.")
-elif category == "Billing":
-    st.write("These insights connect clinical activity to financial outcomes, highlighting how patient visits and procedures translate into billing. They help rank the revenue contribution by doctor and patient, uncover trends over time, and identify peak revenue periods, informing both operational and financial decisions.")
+def set_insights(cat_df):
+    name_map = dict(zip(cat_df["query_name"], cat_df["pretty_name"]))
+
+    insights = st.multiselect(label="Select insights to view", 
+                              options=cat_df["query_name"].unique(),
+                              default=None, format_func=lambda x: name_map.get(x, x),
+
+                              )
+    return insights
+
+def main():
+    st.title("Healthcare Analytics Dashboard")
+
+    global summary_df, result_set_dict, cat_desc 
+    summary_df, result_set_dict, cat_desc = load_data()
+
+    category = st.selectbox(
+        "View insights by category",  # Label above the dropdown
+        ["Doctor", "Patient", "Medical Procedure", "Billing"]  # Options
+    )
+    st.write(cat_desc[category])
+    cat_df = set_category_filter(category)
+
+    set_insights(cat_df)
+
+    insights_list = st.multiselect(label="Select insights to view", 
+                              options=cat_df["query_name"].unique(),
+                              default=None, format_func=lambda x: x['pretty_name']
+                              )
+
+
+
+if __name__ == "__main__":
+    main()
