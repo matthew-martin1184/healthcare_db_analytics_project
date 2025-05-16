@@ -50,7 +50,7 @@ def main():
     st.title("Healthcare Analytics Dashboard")
 
     global summary_df, result_set_dict, cat_desc 
-    summary_df, result_set_dict, cat_desc = load_data()
+    summary_df, result_set_dict, cat_desc = load_pickle_from_github()
 
     category = st.selectbox(
         "View insights by category",  # Label above the dropdown
