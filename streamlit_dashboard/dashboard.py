@@ -50,7 +50,7 @@ def set_tabs(insights_list):
 
         for tab, insight_name in zip(tabs, insights_list):
             with tab:
-                st.write(f"This is the **{insight_name}** tab.")
+                st.write(f"This is the **{summary_df[summary_df['query_name'] == insight_name]['pretty_name'].values[0]}** tab.")
     else:
         st.info("No insights available.")
     return tabs
