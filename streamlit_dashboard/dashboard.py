@@ -60,13 +60,7 @@ def main():
     cat_df = set_category_filter(category)
 
     set_insights(cat_df)
-
-    insights_list = st.multiselect(label="Select insights to view", 
-                              options=cat_df["query_name"].unique(),
-                              default=None, format_func=lambda x: x['pretty_name']
-                              )
-
-
+    
 
 if __name__ == "__main__":
     main()
