@@ -7,6 +7,9 @@ oracledb
 
 # Dashboard
 streamlit
+pandas
+requests
+matplotlib
 
 # Environment variable loading
 python-dotenv
