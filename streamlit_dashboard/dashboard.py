@@ -44,8 +44,10 @@ def set_insights(cat_df):
     return insights
 
 def set_tabs(insights_list):
-    pretty_tabs = dict(zip(summary_df["query_name"], summary_df["pretty_name"]))
+    filtered_df = summary_df[summary_df["query_name"].isin(insights_list)]
+    pretty_tabs = dict(zip(filtered_df["query_name"], filtered_df["pretty_name"]))
     pretty_list = list(pretty_tabs.values())
+    pretty_list = [pretty_tabs[insight] for insight in insights_list if insight in pretty_tabs]
 
     if insights_list:
         tabs = st.tabs(pretty_list)
