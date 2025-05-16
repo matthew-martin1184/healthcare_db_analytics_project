@@ -44,7 +44,6 @@ def set_insights(cat_df):
     return insights
 
 def set_tabs(insights_list):
-    tabs = set_tabs(insights_list)
 
     if insights_list:
         tabs = st.tabs(insights_list)
