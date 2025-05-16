@@ -2,15 +2,25 @@ import streamlit as st
 import pandas as pd
 import os
 import pickle
+import requests
+import io
 import matplotlib as plt
 
 @st.cache_data
-def load_data():
-    file_path = os.path.join(os.path.dirname(__file__), "..", "data", "dataframes.pkl")
-    with open(file_path, "rb") as f:
-        data = pickle.load(f)
+def load_pickle_from_github():
+    url = "https://raw.githubusercontent.com/matthew-martin1184/healthcare_db_analytics_project/main/data/dataframes.pkl"
+    
+    response = requests.get(url)
+    if response.status_code != 200:
+        st.error("Failed to download .pkl file from GitHub.")
+        return None
 
+    file_like = io.BytesIO(response.content)
+    data = pickle.load(file_like)
     return data['summary_df'], data['result_set_dict'], data["cat_desc"]
+
+
+    #return data['summary_df'], data['result_set_dict'], data["cat_desc"]
 
 
 def set_category_filter(category):
