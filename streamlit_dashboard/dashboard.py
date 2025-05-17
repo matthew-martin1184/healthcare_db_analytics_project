@@ -51,6 +51,8 @@ def set_tabs(insights_list):
     pretty_list = list(pretty_tabs.values())
     pretty_list = [pretty_tabs[insight] for insight in insights_list if insight in pretty_tabs]
 
+    tabs = []
+
     if insights_list:
         tabs = st.tabs(pretty_list)
 
