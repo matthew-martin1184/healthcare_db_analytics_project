@@ -26,16 +26,17 @@ def load_pickle_from_github():
 def main():
     st.title("Healthcare Analytics Dashboard")
 
-    global summary_df, result_set_dict, cat_desc 
+    global queries, cat_desc 
     data = load_pickle_from_github()
-    summary_df = data["summary_df"]
-    result_set_dict = data["result_set_dict"]
+    queries = data["queries"]
     cat_desc = data["cat_desc"]
 
-category = st.selectbox(
+    category = st.selectbox(
         "View insights by category",  # Label above the dropdown
         ["Doctor", "Patient", "Medical Procedure", "Billing"]  # Options
-    )    
+    )   
+    st.write(cat_desc[category])
+    # set_category_filter should do things to queries dict
 
 if __name__ == "__main__":
     main()
