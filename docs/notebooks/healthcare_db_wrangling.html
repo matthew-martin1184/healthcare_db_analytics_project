@@ -7556,7 +7556,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [56]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [28]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
@@ -7575,7 +7575,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [57]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [29]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s1">'display.max_colwidth'</span><span class="p">,</span> <span class="mi">300</span><span class="p">)</span>
@@ -7600,7 +7600,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [58]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [30]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># instantiate connection object with credentials from .env file</span>
@@ -7631,12 +7631,30 @@ a.anchor-link {
 </div>
 </div>
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=4647ca6c-2dc2-41f5-b8ed-209d0174562a">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [31]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># define utility function to strip semicolons for Oracle DB syntax compliance</span>
+<span class="k">def</span> <span class="nf">clean_sql_queries</span><span class="p">(</span><span class="n">queries</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">q</span> <span class="ow">in</span> <span class="n">queries</span><span class="o">.</span><span class="n">values</span><span class="p">():</span>
+        <span class="k">if</span> <span class="s1">'query'</span> <span class="ow">in</span> <span class="n">q</span><span class="p">:</span>
+            <span class="n">q</span><span class="p">[</span><span class="s1">'query'</span><span class="p">]</span> <span class="o">=</span> <span class="n">q</span><span class="p">[</span><span class="s1">'query'</span><span class="p">]</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">rstrip</span><span class="p">(</span><span class="s1">';'</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=3c3b00a7-ff12-4ed7-a7f7-f7caf3863f8b">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [59]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [32]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">QUERY_DIR</span> <span class="o">=</span> <span class="s2">"sql_queries"</span>
@@ -7666,7 +7684,22 @@ a.anchor-link {
                     <span class="s2">"source_file"</span><span class="p">:</span> <span class="n">filename</span>
                 <span class="p">}</span>
 
-<span class="c1"># Step 2: Load long descriptions and pretty names</span>
+<span class="c1"># Clean SQL for OracleDB by removing trailing semicolons</span>
+<span class="n">clean_sql_queries</span><span class="p">(</span><span class="n">queries</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=cfc914db-e484-4683-b4f1-748fdfad6f2b">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [33]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Step 2: Load long descriptions and pretty names</span>
 <span class="k">def</span> <span class="nf">load_long_descriptions</span><span class="p">(</span><span class="n">path</span><span class="o">=</span><span class="s2">"data/query_long_descriptions.txt"</span><span class="p">):</span>
     <span class="n">desc_dict</span> <span class="o">=</span> <span class="p">{}</span>
     <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="s2">"r"</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">"utf-8"</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
@@ -7717,9 +7750,20 @@ a.anchor-link {
             <span class="p">}</span>
 
     <span class="k">return</span> <span class="n">desc_dict</span>
-
-
-<span class="c1"># Step 3: Merge long descriptions and pretty names into the queries dict</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=709b471d-c620-4143-9939-774339b5ca87">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [34]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Step 3: Merge long descriptions and pretty names into the queries dict</span>
 <span class="k">def</span> <span class="nf">add_long_descriptions_to_queries</span><span class="p">(</span><span class="n">queries</span><span class="p">,</span> <span class="n">long_desc_path</span><span class="o">=</span><span class="s2">"data/query_long_descriptions.txt"</span><span class="p">):</span>
     <span class="n">long_descriptions</span> <span class="o">=</span> <span class="n">load_long_descriptions</span><span class="p">(</span><span class="n">long_desc_path</span><span class="p">)</span>
 
@@ -7737,6 +7781,29 @@ a.anchor-link {
 </div>
 </div>
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=4999066d-9f79-4464-adcd-89bf782a6697">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [35]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Step 4: Execute SQL queries and store result sets in queries dict</span>
+<span class="k">def</span> <span class="nf">run_query_to_df</span><span class="p">(</span><span class="n">query_name</span><span class="p">):</span>
+    <span class="n">sql</span> <span class="o">=</span> <span class="n">queries</span><span class="p">[</span><span class="n">query_name</span><span class="p">][</span><span class="s1">'query'</span><span class="p">]</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">rstrip</span><span class="p">(</span><span class="s1">';'</span><span class="p">)</span>
+    <span class="n">cursor</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">sql</span><span class="p">)</span>
+    <span class="n">rows</span> <span class="o">=</span> <span class="n">cursor</span><span class="o">.</span><span class="n">fetchall</span><span class="p">()</span>
+    <span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="n">col</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">col</span> <span class="ow">in</span> <span class="n">cursor</span><span class="o">.</span><span class="n">description</span><span class="p">]</span>
+    <span class="k">return</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">rows</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="n">columns</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">query_name</span> <span class="ow">in</span> <span class="n">queries</span><span class="p">:</span>
+    <span class="n">queries</span><span class="p">[</span><span class="n">query_name</span><span class="p">][</span><span class="s1">'result_set'</span><span class="p">]</span> <span class="o">=</span> <span class="n">run_query_to_df</span><span class="p">(</span><span class="n">query_name</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a31484b4-afdf-46d8-b9e0-675dd627d308">
 <div class="jp-Cell-inputWrapper" tabindex="0">
@@ -7748,173 +7815,12 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=9e77d1bf-36c4-41db-8679-66c85723f45f">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [60]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#create combined query dataframe</span>
-<span class="n">summary_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="o">.</span><span class="n">from_dict</span><span class="p">(</span><span class="n">queries</span><span class="p">,</span> <span class="n">orient</span><span class="o">=</span><span class="s2">"index"</span><span class="p">)</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
-<span class="n">summary_df</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s2">"index"</span><span class="p">:</span> <span class="s2">"query_name"</span><span class="p">},</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=90d77235-1260-429d-b234-3c08bf46747c">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [61]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">display</span><span class="p">(</span><span class="n">summary_df</span><span class="o">.</span><span class="n">head</span><span class="p">())</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>query_name</th>
-<th>description</th>
-<th>query</th>
-<th>source_file</th>
-<th>long_description</th>
-<th>pretty_name</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>0</th>
-<td>ttl_billing_by_doctor</td>
-<td>calculates the total billing amount indirectly attributed to each doctor via the patients they saw</td>
-<td>SELECT\n    d.doctor_id,\n    d.doctor_name,\n    SUM(b.amount) AS total_billed\nFROM\n    doctor d\nJOIN\n    appointment a ON d.doctor_id = a.doctor_id\nJOIN\n    billing b ON a.patient_id = b.patient_id\nGROUP BY\n    d.doctor_id, d.doctor_name\nORDER BY\n    total_billed DESC;</td>
-<td>billing_queries.sql</td>
-<td>Sums up all billing amounts attributable to each doctor (via the patients and appointments they oversaw). This effectively ranks doctors by the total revenue generated through their care. Doctors with higher totals are contributing the most financially, which typically reflects a combination of ...</td>
-<td>Total Billing by Doctor</td>
-</tr>
-<tr>
-<th>1</th>
-<td>avg_billed_amt_per_appt_by_doctor</td>
-<td>calculates the average billed amount per appointment for each doctor by dividing total billed by the number of unique appointments</td>
-<td>SELECT\n    d.doctor_id,\n    d.doctor_name,\n    ROUND(SUM(b.amount) * 1.0 / COUNT(DISTINCT a.appointment_id), 2) AS avg_billed_per_appt\nFROM\n    doctor d\nJOIN\n    appointment a ON d.doctor_id = a.doctor_id\nJOIN\n    billing b ON a.patient_id = b.patient_id\nGROUP BY\n    d.doctor_id, d.do...</td>
-<td>billing_queries.sql</td>
-<td>Calculates the average billed amount per appointment for each doctor by dividing each doctor’s total billing by their number of appointments. This highlights differences in revenue per visit among doctors. A higher average billing per appointment suggests that a doctor’s visits tend to involve m...</td>
-<td>Average Billed Amount per Appointment by Doctor</td>
-</tr>
-<tr>
-<th>2</th>
-<td>proc_billing_summary_per_doctor</td>
-<td>summary of procedure volume and average billing amount per procedure type by doctor</td>
-<td>SELECT\n    d.doctor_name,\n    mp.procedure_name,\n    COUNT(mp.procedure_id) AS procedure_count,\n    ROUND(AVG(b.amount), 2) AS avg_billed_amount\nFROM\n    doctor d\nJOIN\n    appointment a ON d.doctor_id = a.doctor_id\nJOIN\n    medical_procedure mp ON a.appointment_id = mp.appointment_id\n...</td>
-<td>billing_queries.sql</td>
-<td>For each doctor, this query lists each procedure type they performed along with the count of that procedure and the average billed amount for it. In other words, it breaks down a doctor’s procedure portfolio and the typical revenue per procedure. This is useful to see which procedures contribute...</td>
-<td>Procedure Billing Summary per Doctor</td>
-</tr>
-<tr>
-<th>3</th>
-<td>ttl_billing_per_patient</td>
-<td>returns each patient’s total billing amount, sorted from highest to lowest</td>
-<td>SELECT\n    p.patient_id,\n    p.first_name,\n    p.last_name,\n    COALESCE(SUM(b.amount), 0) AS total_billed\nFROM\n    patient p\nLEFT JOIN\n    billing b ON p.patient_id = b.patient_id\nGROUP BY\n    p.patient_id, p.first_name, p.last_name\nORDER BY\n    total_billed DESC;</td>
-<td>billing_queries.sql</td>
-<td>Returns each patient’s total billing amount accumulated, sorted from highest to lowest. This identifies the patients who incur the highest costs (or generate the most revenue, depending on perspective). Patients with very high total billing could be those with prolonged or intensive treatments (...</td>
-<td>Total Billing per Patient</td>
-</tr>
-<tr>
-<th>4</th>
-<td>avg_billing_by_hour</td>
-<td>average billing amount for appointments during each hour of the day</td>
-<td>SELECT\n    TO_CHAR(appointment_time, 'HH24') AS hour_of_day,\n    ROUND(AVG(b.amount), 2) AS avg_billed\nFROM\n    appointment a\nJOIN\n    billing b ON a.patient_id = b.patient_id\nGROUP BY\n    TO_CHAR(appointment_time, 'HH24')\nORDER BY\n    hour_of_day;</td>
-<td>billing_queries.sql</td>
-<td>Calculates the average billing amount for appointments during each hour of the day (aggregating across all days). This reveals how revenue generation varies by time of day. For example, if certain hours (say 10-11 AM) have a much higher average billing, it might be because that hour is commonly ...</td>
-<td>Average Billing by Hour</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=1d18f177-8036-4d7c-ac48-7c4dcbb0d92d">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [62]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># remove semicolon from sql queries for oracledb syntax compliance</span>
-<span class="k">for</span> <span class="n">q</span> <span class="ow">in</span> <span class="n">queries</span><span class="o">.</span><span class="n">values</span><span class="p">():</span>
-    <span class="k">if</span> <span class="s1">'query'</span> <span class="ow">in</span> <span class="n">q</span><span class="p">:</span>
-        <span class="n">q</span><span class="p">[</span><span class="s1">'query'</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="k">lambda</span> <span class="n">s</span><span class="p">:</span> <span class="n">s</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">rstrip</span><span class="p">(</span><span class="s1">';'</span><span class="p">))(</span><span class="n">q</span><span class="p">[</span><span class="s1">'query'</span><span class="p">])</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=3cc88955-864e-484e-98f1-b713c3fbd0c0">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [63]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># create dictionaries mapping query name to sql result-set dataframe</span>
-<span class="k">def</span> <span class="nf">run_query_to_df</span><span class="p">(</span><span class="n">query_name</span><span class="p">):</span>
-    <span class="n">sql</span> <span class="o">=</span> <span class="n">queries</span><span class="p">[</span><span class="n">query_name</span><span class="p">][</span><span class="s1">'query'</span><span class="p">]</span>
-    <span class="c1">#print(f"Running query: {query_name}\nSQL:\n{sql}") </span>
-    <span class="n">cursor</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">sql</span><span class="p">)</span>
-    <span class="n">rows</span> <span class="o">=</span> <span class="n">cursor</span><span class="o">.</span><span class="n">fetchall</span><span class="p">()</span>
-    <span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="n">col</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">col</span> <span class="ow">in</span> <span class="n">cursor</span><span class="o">.</span><span class="n">description</span><span class="p">]</span>
-
-    <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">rows</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="n">columns</span><span class="p">)</span>
-    <span class="c1">#globals()[f"{query_name}_df"] = df</span>
-    <span class="k">return</span> <span class="n">df</span>
-
-<span class="n">result_set_dict</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="n">row</span><span class="p">[</span><span class="s1">'query_name'</span><span class="p">]:</span> <span class="n">run_query_to_df</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="s1">'query_name'</span><span class="p">])</span> <span class="k">for</span> <span class="n">_</span><span class="p">,</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">summary_df</span><span class="o">.</span><span class="n">iterrows</span><span class="p">()</span>
-<span class="p">}</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=1b86293f-9371-40f7-82c6-551e95e40c58">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [64]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [36]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># define insight category descriptions</span>
@@ -7944,14 +7850,13 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [65]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [37]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># serialize and dump data</span>
 <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">"data/dataframes.pkl"</span><span class="p">,</span> <span class="s2">"wb"</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
     <span class="n">pickle</span><span class="o">.</span><span class="n">dump</span><span class="p">({</span>
-        <span class="s2">"summary_df"</span><span class="p">:</span> <span class="n">summary_df</span><span class="p">,</span>
-        <span class="s2">"result_set_dict"</span><span class="p">:</span> <span class="n">result_set_dict</span><span class="p">,</span>
+        <span class="s2">"queries"</span><span class="p">:</span> <span class="n">queries</span><span class="p">,</span>
         <span class="s2">"cat_desc"</span><span class="p">:</span> <span class="n">cat_desc</span>
     <span class="p">},</span> <span class="n">f</span><span class="p">)</span>
 </pre></div>
@@ -7975,7 +7880,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [66]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [38]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">connection</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
