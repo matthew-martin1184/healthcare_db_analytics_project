@@ -115,7 +115,8 @@ def build_tabs(insight_dict, tabs):
     for insight, tab in zip(insight_dict, tabs):
         with tab:
             tab_obj = Tab(insight, tab)
-
+            tab_obj.display_description()
+            tab_obj.set_options()
             
         tab_objs.append(tab_obj)
     return tab_objs    
