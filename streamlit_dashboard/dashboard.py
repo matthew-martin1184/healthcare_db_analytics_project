@@ -1,10 +1,12 @@
 import streamlit as st
 import pandas as pd
-import os
 import pickle
 import requests
 import io
 import matplotlib as plt
+import sys
+import os
+#sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from streamlit_dashboard.utils.tab import Tab
 
 # Set the page title and layout
@@ -99,6 +101,10 @@ def set_tabs(insights_dict):
 
         tab_names.append(pretty_name)
         insights_dict_formatted_list.append(insight_dict)
+
+    if not tab_names:
+        st.warning("No insights available to display.")
+        return [], []    
 
     tabs_st = st.tabs(tab_names)
 
