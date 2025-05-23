@@ -5,8 +5,14 @@ import pickle
 import requests
 import io
 import matplotlib as plt
-from utils.tab_builder import TabBuilder
+from streamlit_dashboard.utils.tab import Tab
 
+# Set the page title and layout
+st.set_page_config(
+    page_title="Healthcare Analytics Dashboard",
+    #layout="wide",
+    #initial_sidebar_state="expanded"
+)
 
 @st.cache_data
 def load_pickle_from_github():
@@ -79,14 +85,39 @@ def set_insights(filtered_dict):
 
     return filtered_selection
 
+def set_tabs(insights_dict):
+
+    tab_names = []
+    insights_dict_formatted_list = []
+
+    for key, value in insights_dict.items():
+        insight_dict = {}
+        if "pretty_name" in value:
+            pretty_name = value["pretty_name"]
+            value_copy = {k: v for k, v in value.items() if k != "pretty_name"}
+            insight_dict[pretty_name] = value_copy
+
+        tab_names.append(pretty_name)
+        insights_dict_formatted_list.append(insight_dict)
+
+    tabs_st = st.tabs(tab_names)
+
+    return insights_dict_formatted_list, tabs_st
+        
+def build_tabs(insight_dict, tabs):
+    tab_objs = []
+    for insight, tab in zip(insight_dict, tabs):
+        with tab:
+            tab_obj = Tab(insight, tab)
+
+            
+        tab_objs.append(tab_obj)
+    return tab_objs    
+
 
 def main():
-    # Set the page title and layout
-    st.set_page_config(
-        page_title="Healthcare Analytics Dashboard",
-        #layout="wide",
-        #initial_sidebar_state="expanded"
-    )
+    st.title("Healthcare Analytics Dashboard")
+    st.write("This dashboard is currently in development.")
 
     # Instantiate global variables: queries dict and cat_desc dict
     global queries, cat_desc 
@@ -101,7 +132,11 @@ def main():
     insights_dict = set_insights(filtered_dict)
 
     ##################  DRIVER CODE  ##################
-    st.write(insights_dict)
+    #st.write(insights_dict)
+
+    insight_dict, tabs = set_tabs(insights_dict)
+
+    tab_objs = build_tabs(insight_dict, tabs)
     
 
     #tabs = build_tabs(insights)
