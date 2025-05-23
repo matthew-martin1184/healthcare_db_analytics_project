@@ -1,1 +1,83 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual Environments
+venv/
+.env/
+.envrc
+.venv/
+Pipfile.lock
+poetry.lock
+
+# pyenv
+.python-version
+
+# -------------------------
+# VS Code
+# -------------------------
+.vscode/
+
+# -------------------------
+# Mac / OS-specific
+# -------------------------
+.DS_Store
+.Spotlight-V100
+.Trashes
+
+# -------------------------
+# Windows-specific
+# -------------------------
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# -------------------------
+# Streamlit Cache
+# -------------------------
+.streamlit/config.toml
+.streamlit/secrets.toml
+.streamlit/*.json
+.streamlit/*.lock
+.streamlit/*.log
+.streamlit/cache/
+.streamlit/*.pyc
+
+# -------------------------
+# Test / Coverage / CI
+# -------------------------
+.coverage
+.tox/
+.nox/
+.cache/
+coverage.xml
+pytest_cache/
+htmlcov/
+nosetests.xml
+test-results/
+
+# -------------------------
+# GitHub-specific
+# -------------------------
+.git/
+
+# -------------------------
+# Project-specific (optional examples)
+# -------------------------
+# data/          # uncomment to ignore local data files
+# secrets.json   # uncomment for local secrets file
 
