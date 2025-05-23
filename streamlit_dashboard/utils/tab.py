@@ -29,3 +29,24 @@ class Tab:
             self.show_summary = st.checkbox(
                 "Display insight interpretation", value=False, key=f"{self.insight_name}_show_summary"
             )
+        if self.show_table:
+            self.display_table()
+        if self.show_plot:
+            self.display_plot()
+        if self.show_summary:
+            self.display_summary()
+
+    def display_table(self):
+        st.subheader(self.insight_name)
+        st.dataframe(
+            pd.DataFrame(self.insight_dict["result_set"]),
+            use_container_width=True,
+            hide_index=True,
+        )
+
+    def display_plot(self):
+        st.write("Plot insight results coming soon!")
+
+    def display_summary(self):
+        st.write("Summary coming soon!")
+    # Example usage
