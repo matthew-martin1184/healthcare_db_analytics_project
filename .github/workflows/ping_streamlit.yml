@@ -1,1 +1,15 @@
+name: Wake Streamlit App
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'  # Runs every 30 minutes (UTC)
+  workflow_dispatch:        # Allows manual trigger
+
+jobs:
+  wake-up:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Streamlit App
+        run: |
+          curl --silent --show-error https://healthcaredbanalyticsproject-kvc5vwdrheqi3jszhg55vk.streamlit.app/
 
